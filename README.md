@@ -1,17 +1,15 @@
-# 💰 RelishEconomy - Multi-Currency Economy Plugin
-
+<div align="center">
+  
 [![License](https://img.shields.io/badge/License-Premium-gold.svg)](https://builtbybit.com/resources/relisheconomy)
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg)](https://github.com/RelishDev/RelishEconomy)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21+-green.svg)](https://papermc.io)
 [![Java](https://img.shields.io/badge/Java-21+-orange.svg)](https://adoptium.net)
 
-<div align="center">
 
-![RelishEconomy Logo](https://i.ibb.co/pvqDfhtB/Relish-Economy-Logo.png)
+
+![Relish-Economy-Logo](https://cdn.modrinth.com/data/cached_images/7cde857e8cafd9f53e73608b7d66ae763fcc6015_0.webp)
 
 **Modern economy plugin with multi-currency support**
-
-[📥 Download](https://modrinth.com/plugin/relisheconomy) • [📖 Documentation](https://im5lb.github.io/relisheconomy) • [💬 Support](https://discord.gg/relish) • [🛒 Premium](https://builtbybit.com/resources/relisheconomy)
 
 </div>
 
@@ -278,58 +276,30 @@ balance:
 
 ---
 
-## 📸 **Screenshots**
-
-<div align="center">
-
-| Shop GUI | Sell GUI | Balance Command |
-|----------|----------|-----------------|
-| ![Shop](https://via.placeholder.com/250x150/3498db/ffffff?text=Shop+GUI) | ![Sell](https://via.placeholder.com/250x150/e74c3c/ffffff?text=Sell+GUI) | ![Balance](https://via.placeholder.com/250x150/2ecc71/ffffff?text=Balance) |
-
-| Currency Exchange | Baltop Leaderboard | Admin Panel |
-|-------------------|-------------------|-------------|
-| ![Exchange](https://via.placeholder.com/250x150/f39c12/ffffff?text=Exchange) | ![Baltop](https://via.placeholder.com/250x150/9b59b6/ffffff?text=Baltop) | ![Admin](https://via.placeholder.com/250x150/34495e/ffffff?text=Admin) |
-
-</div>
-
----
-
 ## 📞 **Support & Links**
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/relish)
-[![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://docs.relish.dev)
+[![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/MYA5tYKXsY)
+[![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://im5lb.github.io/relisheconomy)
 [![Premium](https://img.shields.io/badge/Premium-Buy-gold?style=for-the-badge&logo=paypal)](https://builtbybit.com/resources/relisheconomy)
-[![GitHub](https://img.shields.io/badge/GitHub-Source-black?style=for-the-badge&logo=github)](https://github.com/RelishDev/RelishEconomy)
-
-**🔗 Quick Links**
-- 📥 [Download Free](https://modrinth.com/plugin/relisheconomy)
-- 🛒 [Buy Premium](https://builtbybit.com/resources/relisheconomy)
-- 📖 [Documentation](https://docs.relish.dev/currencies)
-- 💬 [Discord Support](https://discord.gg/relish)
-- 🐛 [Report Issues](https://github.com/RelishDev/RelishEconomy/issues)
-
+[![GitHub](https://img.shields.io/badge/GitHub-Source-black?style=for-the-badge&logo=github)](https://github.com/im5lb/RelishEconomy)
 </div>
 
 ---
 
 ## 📄 **License**
 
-RelishEconomy is licensed under the **MIT License** for the free version.
+RelishEconomy is available in two versions:
+- **Free Version**: Basic economy features
+- **Premium Version**: Advanced features and GUIs
 
-**Premium features** (Shop GUI, Sell GUI, Currency Exchange, MySQL support) require a separate commercial license available on [BuiltByBit](https://builtbybit.com/resources/relisheconomy).
-
-- **Free Version**: MIT License - Use, modify, and distribute freely
-- **Premium Features**: Commercial License - One license per server
-- **Source Code**: Available on GitHub (premium features are license-gated)
+For premium licensing, visit [BuiltByBit](https://builtbybit.com/resources/relisheconomy).
 
 ---
 
 <div align="center">
 
 **Made with ❤️ by the Relish Development Team**
-
-⭐ **Star this project if you found it helpful!** ⭐
 
 </div>
