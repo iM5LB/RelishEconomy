@@ -4,26 +4,8 @@ description: Complete guide for RelishEconomy - Multi-Currency Economy Plugin
 baseurl: "/relisheconomy"
 url: "https://im5lb.github.io"
 
-# Theme - Using a better theme for documentation
-remote_theme: pages-themes/cayman@v0.2.0
-
-# Site settings
-author: Relish Development Team
-email: support@relish.dev
-github_username: iM5LB
-
-# Navigation
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Installation"
-    url: "/installation"
-  - title: "Configuration"
-    url: "/configuration"
-  - title: "Commands"
-    url: "/commands"
-  - title: "PlaceholderAPI"
-    url: "/placeholderapi"
+# Theme - Using GitHub's default theme
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Plugins
 plugins:
@@ -34,15 +16,9 @@ plugins:
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
 
-# Sass settings
-sass:
-  sass_dir: _sass
-  style: compressed
+# Permalink structure
+permalink: /:title/
 
 # Exclude files
 exclude:
@@ -50,8 +26,6 @@ exclude:
   - _sidebar.md
   - index.html
   - SUMMARY.md
-  - Gemfile
-  - Gemfile.lock
 
 # Defaults
 defaults:
@@ -60,11 +34,3 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
-# Custom variables
-colors:
-  primary: "#2c3e50"
-  secondary: "#3498db"
-  accent: "#e74c3c"
-  success: "#27ae60"
-  warning: "#f39c12"

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Configuration Guide
+description: Complete guide to configuring RelishEconomy currencies, database, and features
+permalink: /configuration/
 ---
 
 # Configuration Guide

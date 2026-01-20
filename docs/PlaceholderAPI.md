@@ -1,6 +1,8 @@
 ---
 layout: default
 title: PlaceholderAPI Integration
+description: Complete guide to using RelishEconomy placeholders with other plugins
+permalink: /placeholderapi/
 ---
 
 # PlaceholderAPI Integration

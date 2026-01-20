@@ -2,417 +2,212 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }}</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#2c3e50">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% seo %}
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <div class="header-content">
-        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
         
-        <div class="header-buttons">
-          <a href="https://modrinth.com/plugin/relisheconomy" class="btn btn-download">📥 Download Free</a>
-          <a href="https://builtbybit.com/resources/relisheconomy" class="btn btn-premium">🛒 Buy Premium</a>
-          <a href="https://discord.gg/relish" class="btn btn-support">💬 Discord</a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="{{ "/" | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+            <li><a href="{{ "/installation/" | relative_url }}" {% if page.url contains "installation" %}class="active"{% endif %}>Installation</a></li>
+            <li><a href="{{ "/configuration/" | relative_url }}" {% if page.url contains "configuration" %}class="active"{% endif %}>Configuration</a></li>
+            <li><a href="{{ "/commands/" | relative_url }}" {% if page.url contains "commands" %}class="active"{% endif %}>Commands</a></li>
+            <li><a href="{{ "/placeholderapi/" | relative_url }}" {% if page.url contains "placeholderapi" %}class="active"{% endif %}>PlaceholderAPI</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-links">
+          <a href="https://modrinth.com/plugin/relisheconomy" class="btn btn-free">Download Free</a>
+          <a href="https://builtbybit.com/resources/relisheconomy" class="btn btn-premium">Buy Premium</a>
+          <a href="https://discord.gg/relish" class="btn btn-discord">Discord</a>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <nav class="main-nav">
-      <div class="nav-container">
-        <ul class="nav-links">
-          <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>🏠 Home</a></li>
-          <li><a href="{{ '/installation' | relative_url }}" {% if page.url contains 'installation' %}class="active"{% endif %}>🚀 Installation</a></li>
-          <li><a href="{{ '/configuration' | relative_url }}" {% if page.url contains 'configuration' %}class="active"{% endif %}>⚙️ Configuration</a></li>
-          <li><a href="{{ '/commands' | relative_url }}" {% if page.url contains 'commands' %}class="active"{% endif %}>📝 Commands</a></li>
-          <li><a href="{{ '/placeholderapi' | relative_url }}" {% if page.url contains 'placeholderapi' %}class="active"{% endif %}>🔗 PlaceholderAPI</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <main id="content" class="main-content" role="main">
-      <div class="content-wrapper">
+      <section>
         {{ content }}
-      </div>
+      </section>
 
-      <footer class="site-footer">
-        <div class="footer-content">
-          <div class="footer-section">
-            <h4>RelishEconomy</h4>
-            <p>Advanced multi-currency economy plugin for Minecraft servers</p>
-          </div>
-          <div class="footer-section">
-            <h4>Links</h4>
-            <ul>
-              <li><a href="https://github.com/iM5LB/relisheconomy">GitHub</a></li>
-              <li><a href="https://modrinth.com/plugin/relisheconomy">Modrinth</a></li>
-              <li><a href="https://builtbybit.com/resources/relisheconomy">BuiltByBit</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Support</h4>
-            <ul>
-              <li><a href="https://discord.gg/relish">Discord</a></li>
-              <li><a href="https://github.com/iM5LB/relisheconomy/issues">Issues</a></li>
-              <li><a href="mailto:support@relish.dev">Email</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2024 Relish Development Team. Licensed under MIT License.</p>
-        </div>
+      <footer>
+        <p><small>&copy; 2024 Relish Development Team | Licensed under MIT License</small></p>
       </footer>
-    </main>
+    </div>
 
     <style>
-      /* Custom styles for RelishEconomy documentation */
-      :root {
-        --primary-color: #2c3e50;
-        --secondary-color: #3498db;
-        --accent-color: #e74c3c;
-        --success-color: #27ae60;
-        --warning-color: #f39c12;
-        --premium-color: #f1c40f;
-        --text-color: #333;
-        --bg-color: #fff;
-        --border-color: #e1e4e8;
-        --code-bg: #f6f8fa;
+      /* Simple, clean documentation styles */
+      .main-nav {
+        margin: 20px 0;
       }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        color: var(--text-color);
-        margin: 0;
+      
+      .main-nav ul {
+        list-style: none;
         padding: 0;
-      }
-
-      .page-header {
-        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-        color: white;
-        text-align: center;
-        padding: 3rem 1rem 2rem;
-      }
-
-      .header-content {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      .project-name {
-        margin: 0 0 0.5rem;
-        font-size: 2.5rem;
-        font-weight: 700;
-      }
-
-      .project-tagline {
-        margin: 0 0 2rem;
-        font-size: 1.2rem;
-        opacity: 0.9;
-        font-weight: 400;
-      }
-
-      .header-buttons {
+        margin: 0;
         display: flex;
-        gap: 1rem;
-        justify-content: center;
         flex-wrap: wrap;
+        gap: 10px;
       }
-
+      
+      .main-nav li {
+        margin: 0;
+      }
+      
+      .main-nav a {
+        display: block;
+        padding: 8px 16px;
+        background: #f1f1f1;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+      }
+      
+      .main-nav a:hover,
+      .main-nav a.active {
+        background: #0366d6;
+        color: white;
+      }
+      
+      .header-links {
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      
       .btn {
         display: inline-block;
-        padding: 0.75rem 1.5rem;
-        border-radius: 6px;
+        padding: 8px 16px;
+        border-radius: 4px;
         text-decoration: none;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        border: 2px solid transparent;
-      }
-
-      .btn-download {
-        background: var(--success-color);
-        color: white;
-      }
-
-      .btn-premium {
-        background: var(--premium-color);
-        color: var(--primary-color);
-      }
-
-      .btn-support {
-        background: transparent;
-        color: white;
-        border-color: white;
-      }
-
-      .btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      }
-
-      .main-nav {
-        background: white;
-        border-bottom: 1px solid var(--border-color);
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      }
-
-      .nav-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 1rem;
-      }
-
-      .nav-links {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow-x: auto;
-      }
-
-      .nav-links li {
-        flex-shrink: 0;
-      }
-
-      .nav-links a {
-        display: block;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
-        color: var(--text-color);
+        font-size: 14px;
         font-weight: 500;
-        transition: all 0.3s ease;
-        border-bottom: 3px solid transparent;
+        text-align: center;
+        transition: all 0.3s;
       }
-
-      .nav-links a:hover,
-      .nav-links a.active {
-        color: var(--secondary-color);
-        border-bottom-color: var(--secondary-color);
-        background: rgba(52, 152, 219, 0.1);
+      
+      .btn-free {
+        background: #28a745;
+        color: white;
       }
-
-      .main-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem 1rem;
+      
+      .btn-premium {
+        background: #ffc107;
+        color: #212529;
       }
-
-      .content-wrapper {
-        background: white;
-        border-radius: 8px;
-        padding: 2rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        margin-bottom: 2rem;
+      
+      .btn-discord {
+        background: #5865f2;
+        color: white;
       }
-
-      /* Typography */
+      
+      .btn:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+      }
+      
+      /* Content styling */
       h1, h2, h3, h4, h5, h6 {
-        color: var(--primary-color);
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        line-height: 1.3;
+        color: #333;
+        margin-top: 2em;
+        margin-bottom: 1em;
       }
-
+      
       h1 {
-        font-size: 2.5rem;
-        border-bottom: 3px solid var(--secondary-color);
-        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 0.5em;
         margin-top: 0;
       }
-
+      
       h2 {
-        font-size: 2rem;
-        color: var(--secondary-color);
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.3em;
       }
-
-      h3 {
-        font-size: 1.5rem;
-      }
-
-      /* Code styling */
+      
       code {
-        background: var(--code-bg);
-        padding: 0.2rem 0.4rem;
-        border-radius: 4px;
-        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        background: #f6f8fa;
+        padding: 2px 4px;
+        border-radius: 3px;
         font-size: 0.9em;
       }
-
+      
       pre {
-        background: var(--code-bg);
-        padding: 1rem;
+        background: #f6f8fa;
+        padding: 16px;
         border-radius: 6px;
         overflow-x: auto;
-        border-left: 4px solid var(--secondary-color);
+        border-left: 3px solid #0366d6;
       }
-
+      
       pre code {
         background: none;
         padding: 0;
       }
-
-      /* Tables */
+      
       table {
-        width: 100%;
         border-collapse: collapse;
-        margin: 1rem 0;
-        border-radius: 6px;
-        overflow: hidden;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        width: 100%;
+        margin: 1em 0;
       }
-
+      
       th, td {
-        padding: 0.75rem;
+        border: 1px solid #ddd;
+        padding: 8px 12px;
         text-align: left;
-        border-bottom: 1px solid var(--border-color);
       }
-
+      
       th {
-        background: var(--primary-color);
-        color: white;
+        background: #f6f8fa;
         font-weight: 600;
       }
-
+      
       tr:nth-child(even) {
-        background: #f8f9fa;
+        background: #f9f9f9;
       }
-
-      /* Links */
-      a {
-        color: var(--secondary-color);
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      /* Badges and labels */
+      
       .badge {
         display: inline-block;
-        padding: 0.25rem 0.5rem;
-        border-radius: 4px;
-        font-size: 0.8rem;
+        padding: 2px 6px;
+        font-size: 11px;
         font-weight: 600;
+        border-radius: 3px;
         text-transform: uppercase;
       }
-
+      
       .badge-premium {
-        background: var(--premium-color);
-        color: var(--primary-color);
+        background: #ffc107;
+        color: #212529;
       }
-
+      
       .badge-free {
-        background: var(--success-color);
+        background: #28a745;
         color: white;
       }
-
-      /* Footer */
-      .site-footer {
-        background: var(--primary-color);
-        color: white;
-        padding: 2rem 1rem 1rem;
-      }
-
-      .footer-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 2rem;
-      }
-
-      .footer-section h4 {
-        color: white;
-        margin-top: 0;
-        margin-bottom: 1rem;
-      }
-
-      .footer-section ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-
-      .footer-section ul li {
-        margin-bottom: 0.5rem;
-      }
-
-      .footer-section a {
-        color: rgba(255,255,255,0.8);
-        transition: color 0.3s ease;
-      }
-
-      .footer-section a:hover {
-        color: white;
-      }
-
-      .footer-bottom {
-        max-width: 1200px;
-        margin: 2rem auto 0;
-        padding-top: 1rem;
-        border-top: 1px solid rgba(255,255,255,0.2);
-        text-align: center;
-        opacity: 0.8;
-      }
-
-      /* Responsive design */
+      
+      /* Mobile responsive */
       @media (max-width: 768px) {
-        .project-name {
-          font-size: 2rem;
-        }
-
-        .project-tagline {
-          font-size: 1rem;
-        }
-
-        .header-buttons {
+        .main-nav ul {
           flex-direction: column;
-          align-items: center;
         }
-
-        .nav-links {
-          justify-content: flex-start;
+        
+        .main-nav a {
+          text-align: center;
         }
-
-        .nav-links a {
-          padding: 0.75rem 1rem;
-          font-size: 0.9rem;
-        }
-
-        .content-wrapper {
-          padding: 1rem;
-        }
-
-        h1 {
-          font-size: 2rem;
-        }
-
-        h2 {
-          font-size: 1.5rem;
+        
+        .header-links {
+          flex-direction: column;
         }
       }
-
-      /* Utility classes */
-      .text-center { text-align: center; }
-      .text-muted { color: #6c757d; }
-      .mb-0 { margin-bottom: 0; }
-      .mt-2 { margin-top: 1rem; }
-      .mb-2 { margin-bottom: 1rem; }
     </style>
   </body>
 </html>

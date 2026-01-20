@@ -2,85 +2,49 @@
 layout: default
 title: Installation Guide
 description: Step-by-step guide to install and set up RelishEconomy on your Minecraft server
+permalink: /installation/
 ---
 
 # Installation Guide
 
 Get RelishEconomy up and running on your Minecraft server in just a few minutes.
 
-## 📋 Requirements
+## Requirements
 
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Requirement</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Minecraft</strong></td>
-<td>1.21+</td>
-<td>Latest version recommended</td>
-</tr>
-<tr>
-<td><strong>Server</strong></td>
-<td>Paper, Purpur, or Paper-based forks</td>
-<td>Spigot not officially supported</td>
-</tr>
-<tr>
-<td><strong>Java</strong></td>
-<td>21+</td>
-<td>Required for Minecraft 1.21+</td>
-</tr>
-<tr>
-<td><strong>Dependencies</strong></td>
-<td>Vault (recommended), PlaceholderAPI (optional)</td>
-<td>Auto-detected if present</td>
-</tr>
-</tbody>
-</table>
+| Component | Requirement | Notes |
+|-----------|-------------|-------|
+| **Minecraft** | 1.21+ | Latest version recommended |
+| **Server** | Paper, Purpur, or Paper-based forks | Spigot not officially supported |
+| **Java** | 21+ | Required for Minecraft 1.21+ |
+| **Dependencies** | Vault (recommended), PlaceholderAPI (optional) | Auto-detected if present |
 
-## 🚀 Step-by-Step Installation
+## Step-by-Step Installation
 
 ### Step 1: Download the Plugin
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
-  <div style="border: 1px solid #27ae60; border-radius: 8px; padding: 1.5rem; background: #f0fff4;">
-    <h4 style="margin-top: 0; color: #27ae60;">🆓 Free Version</h4>
-    <p>Perfect for basic economy needs</p>
-    <ul>
-      <li>Multi-currency support</li>
-      <li>Basic commands</li>
-      <li>Vault integration</li>
-      <li>SQLite database</li>
-    </ul>
-    <a href="https://modrinth.com/plugin/relisheconomy" style="display: inline-block; background: #27ae60; color: white; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600;">Download from Modrinth</a>
-  </div>
-  
-  <div style="border: 1px solid #f1c40f; border-radius: 8px; padding: 1.5rem; background: #fffbf0;">
-    <h4 style="margin-top: 0; color: #f39c12;">⭐ Premium Version</h4>
-    <p>Advanced features for professional servers</p>
-    <ul>
-      <li>Shop & Sell GUIs</li>
-      <li>Currency exchange</li>
-      <li>MySQL support</li>
-      <li>Premium support</li>
-    </ul>
-    <a href="https://builtbybit.com/resources/relisheconomy" style="display: inline-block; background: #f1c40f; color: #2c3e50; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600;">Purchase on BuiltByBit</a>
-  </div>
-</div>
+**Free Version** - Perfect for basic economy needs
+- Multi-currency support
+- Basic commands  
+- Vault integration
+- SQLite database
+
+[Download from Modrinth](https://modrinth.com/plugin/relisheconomy)
+
+**Premium Version** <span class="badge badge-premium">Premium</span> - Advanced features for professional servers
+- Shop & Sell GUIs
+- Currency exchange
+- MySQL support
+- Premium support
+
+[Purchase on BuiltByBit](https://builtbybit.com/resources/relisheconomy)
 
 ### Step 2: Install Dependencies (Recommended)
-
-While RelishEconomy works standalone, these plugins enhance functionality:
 
 **Vault** (Highly Recommended)
 - Enables compatibility with other economy plugins
 - Download: [Spigot](https://www.spigotmc.org/resources/vault.34315/)
 
-**PlaceholderAPI** (Optional)
+**PlaceholderAPI** (Optional)  
 - Adds placeholder support for scoreboards and chat
 - Download: [Spigot](https://www.spigotmc.org/resources/placeholderapi.6245/)
 
@@ -104,47 +68,14 @@ While RelishEconomy works standalone, these plugins enhance functionality:
 
 After installation, you'll find these files in `plugins/RelishEconomy/`:
 
-<table>
-<thead>
-<tr>
-<th>File</th>
-<th>Purpose</th>
-<th>Required</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>config.yml</code></td>
-<td>Main configuration</td>
-<td>✅ Yes</td>
-</tr>
-<tr>
-<td><code>lang/en.yml</code></td>
-<td>English messages</td>
-<td>✅ Yes</td>
-</tr>
-<tr>
-<td><code>lang/ar.yml</code></td>
-<td>Arabic messages</td>
-<td>❌ Optional</td>
-</tr>
-<tr>
-<td><code>prices.yml</code></td>
-<td>Item prices for selling <span class="badge badge-premium">Premium</span></td>
-<td>❌ Optional</td>
-</tr>
-<tr>
-<td><code>shop.yml</code></td>
-<td>Shop configuration <span class="badge badge-premium">Premium</span></td>
-<td>❌ Optional</td>
-</tr>
-<tr>
-<td><code>gui.yml</code></td>
-<td>GUI customization <span class="badge badge-premium">Premium</span></td>
-<td>❌ Optional</td>
-</tr>
-</tbody>
-</table>
+| File | Purpose | Required |
+|------|---------|----------|
+| `config.yml` | Main configuration | ✅ Yes |
+| `lang/en.yml` | English messages | ✅ Yes |
+| `lang/ar.yml` | Arabic messages | ❌ Optional |
+| `prices.yml` | Item prices for selling <span class="badge badge-premium">Premium</span> | ❌ Optional |
+| `shop.yml` | Shop configuration <span class="badge badge-premium">Premium</span> | ❌ Optional |
+| `gui.yml` | GUI customization <span class="badge badge-premium">Premium</span> | ❌ Optional |
 
 ### Step 5: Basic Configuration
 
@@ -172,7 +103,7 @@ currencies:
    /re help             # View available commands
    ```
 
-## 🔑 Premium Activation
+## Premium Activation
 
 If you purchased the premium version:
 
@@ -188,18 +119,7 @@ If you purchased the premium version:
    /re license          # Check license status
    ```
 
-## ✅ Verification Checklist
-
-After installation, verify everything is working:
-
-- [ ] Plugin loads without errors in console
-- [ ] `/re version` shows correct version and license status
-- [ ] `/balance` command works
-- [ ] Vault integration detected (if installed)
-- [ ] PlaceholderAPI integration detected (if installed)
-- [ ] Premium features accessible (if licensed)
-
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -218,35 +138,18 @@ After installation, verify everything is working:
 - For MySQL: verify connection details
 - Check available disk space
 
-**Premium features not working**
-- Verify license key is correct
-- Check internet connection for license verification
-- Ensure license hasn't expired
-
 ### Getting Help
 
-<div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0;">
-  <a href="https://discord.gg/relish" style="display: inline-flex; align-items: center; gap: 0.5rem; background: #5865f2; color: white; padding: 0.75rem 1rem; border-radius: 6px; text-decoration: none;">
-    💬 Discord Support
-  </a>
-  <a href="https://github.com/iM5LB/relisheconomy/issues" style="display: inline-flex; align-items: center; gap: 0.5rem; background: #24292e; color: white; padding: 0.75rem 1rem; border-radius: 6px; text-decoration: none;">
-    🐛 Report Issues
-  </a>
-</div>
+- [Discord Support](https://discord.gg/relish)
+- [Report Issues](https://github.com/iM5LB/relisheconomy/issues)
 
----
-
-## 🎯 Next Steps
+## Next Steps
 
 Once RelishEconomy is installed:
 
-1. **[Configure currencies](configuration)** - Set up your server's economy
-2. **[Learn commands](commands)** - Master all available commands  
-3. **[Set up PlaceholderAPI](placeholderapi)** - Integrate with other plugins
-
-<div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #3498db;">
-  <strong>Installation complete!</strong> Ready to configure your economy? Check out our <a href="configuration">Configuration Guide</a> next.
-</div>
+1. **[Configure currencies]({{ "/configuration/" | relative_url }})** - Set up your server's economy
+2. **[Learn commands]({{ "/commands/" | relative_url }})** - Master all available commands  
+3. **[Set up PlaceholderAPI]({{ "/placeholderapi/" | relative_url }})** - Integrate with other plugins
 
 ## Requirements
 
