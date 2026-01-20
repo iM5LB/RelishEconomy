@@ -1,10 +1,10 @@
 # RelishEconomy License
 
-RelishEconomy is available under a dual licensing model:
+RelishEconomy uses a **dual licensing model** to support both free and premium versions:
 
-## Free Version License
+## Free Version (MIT License)
 
-The **free version** of RelishEconomy (available on Modrinth) is licensed under the **MIT License**:
+The free version of RelishEconomy is licensed under the MIT License:
 
 ```
 MIT License
@@ -30,42 +30,31 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Premium Version License
+## Premium Version (Commercial License)
 
-The **premium version** of RelishEconomy (available on BuiltByBit) is licensed under a **Commercial License**:
+Premium features require a separate commercial license:
 
-### Commercial License Terms
+- **Purchase**: Available on [BuiltByBit](https://builtbybit.com/resources/relisheconomy)
+- **Coverage**: One license per Minecraft server
+- **Features**: Shop GUI, Sell GUI, Currency Exchange, MySQL support, and more
+- **Support**: Premium Discord support included
+- **Updates**: Free updates within major version
 
-1. **Purchase Required**: Premium features require a valid license purchased from BuiltByBit
-2. **Single Server**: Each license covers one (1) Minecraft server instance
-3. **Network License**: Contact us for multi-server network licensing
-4. **No Redistribution**: Premium version may not be redistributed or shared
-5. **Updates Included**: License includes updates for the major version purchased
-6. **Support Included**: Premium license includes Discord support
+### Commercial License Terms Summary:
+- ✅ Use on one Minecraft server
+- ✅ Receive updates and support
+- ❌ No redistribution or sharing
+- ❌ No reverse engineering
 
-### Premium Features (Commercial License Only)
-- Advanced Shop GUI with categories
-- Interactive Sell GUI with drag-and-drop
-- Currency exchange system
-- MySQL database support
-- Physical currency items
-- Extended baltop features
-- Advanced GUI customization
+## Which License Applies?
 
-## License Verification
+- **Free features** (basic economy, Vault integration, PlaceholderAPI) → MIT License
+- **Premium features** (GUIs, exchange, MySQL) → Commercial License Required
 
-The plugin automatically detects which features are available based on:
-- License key validation (for premium features)
-- Graceful fallback to free mode if license verification fails
-- No data collection or phone-home requirements
+The plugin automatically detects your license status and enables appropriate features.
 
 ## Contact
 
-- **Free Version Support**: [GitHub Issues](https://github.com/RelishDev/RelishEconomy/issues)
+- **Free Support**: [GitHub Issues](https://github.com/iM5LB/relisheconomy/issues)
 - **Premium Support**: [Discord](https://discord.gg/relish)
-- **Licensing Questions**: support@relish.dev
-- **Commercial Inquiries**: business@relish.dev
-
----
-
-**Note**: This dual licensing allows you to use the free version under open-source terms while requiring a commercial license for premium features. Choose the license that matches your usage needs.
+- **Business Inquiries**: business@relish.dev
