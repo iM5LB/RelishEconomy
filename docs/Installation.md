@@ -81,6 +81,5 @@ license-key: "your-license-key-here"
 - **Database errors**: Check file permissions
 
 ### Getting Help
-- Check the [Troubleshooting Guide](Troubleshooting)
-- Join our [Discord](https://discord.gg/relish)
-- Report bugs on [GitHub](https://github.com/RelishDev/RelishEconomy/issues)
+- Join our [Discord](https://discord.gg/jDr2KZcGXk)
+- Report bugs on [GitHub](https://github.com/iM5LB/relisheconomy/issues)

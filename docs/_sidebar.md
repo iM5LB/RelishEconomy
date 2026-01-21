@@ -22,4 +22,4 @@
 * **Links**
   * [📥 Download Free](https://modrinth.com/plugin/relisheconomy)
   * [🛒 Buy Premium](https://builtbybit.com/resources/relisheconomy)
-  * [💬 Discord](https://discord.gg/relish)
+  * [💬 Discord](https://discord.gg/jDr2KZcGXk)
