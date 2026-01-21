@@ -63,6 +63,9 @@ settings.gradle
 *.jar
 RelishEconomy*.zip
 
+# BuiltByBit specific files
+README-BUILTBYBIT.txt
+
 # Auth and sensitive files
 auth/
 *.json
