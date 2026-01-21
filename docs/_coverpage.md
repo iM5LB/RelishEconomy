@@ -2,7 +2,7 @@
 
 ![logo](https://cdn.modrinth.com/data/cached_images/9df4655d0afd67ba097405f931695951fcb513f2_0.webp)
 
-# RelishEconomy <small>v2.0</small>
+# RelishEconomy <small>1.0.0-Beta</small>
 
 > Advanced Multi-Currency Economy Plugin for Minecraft
 
