@@ -1,10 +1,3 @@
----
-layout: default
-title: Commands Reference
-description: Complete reference for all RelishEconomy commands with examples and usage
-permalink: /commands/
----
-
 # Commands Reference
 
 ## Player Commands

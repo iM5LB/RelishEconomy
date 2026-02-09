@@ -1,10 +1,3 @@
----
-layout: default
-title: PlaceholderAPI Integration
-description: Complete guide to using RelishEconomy placeholders with other plugins
-permalink: /placeholderapi/
----
-
 # PlaceholderAPI Integration
 
 RelishEconomy provides comprehensive PlaceholderAPI support with caching for optimal performance.

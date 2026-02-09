@@ -1,10 +1,3 @@
----
-layout: default
-title: Installation Guide
-description: Step-by-step guide to install and set up RelishEconomy on your Minecraft server
-permalink: /installation/
----
-
 # Installation Guide
 
 Get RelishEconomy up and running on your Minecraft server in just a few minutes.
