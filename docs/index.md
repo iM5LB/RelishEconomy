@@ -55,8 +55,8 @@ Works perfectly with your existing plugins:
 ## Getting Started
 
 1. **Choose Your Version**
-   - Download the free version from [Modrinth](https://modrinth.com/plugin/relisheconomy)
-   - Or get premium features from [BuiltByBit](https://builtbybit.com/resources/relisheconomy)
+   - Download the free version from [Modrinth](https://modrinth.com/plugin/relish-economy)
+   - Or get premium features from [BuiltByBit](https://builtbybit.com/resources/relish-economy.90571)
 
 2. **Follow Installation Guide**
    - Check our [Installation Guide]({{ "/installation/" | relative_url }}) for step-by-step setup
