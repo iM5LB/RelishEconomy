@@ -69,22 +69,6 @@ RelishEconomy is a powerful, feature-rich economy plugin that brings advanced fi
 - **Active Development** - Regular updates and new features
 - **Bilingual** - Full Arabic and English support
 
-## 📊 Statistics
-
-- **Downloads**: 1,000+
-- **Servers**: 500+
-- **Rating**: ⭐⭐⭐⭐⭐ (5.0/5.0)
-- **Support Response**: < 24 hours
-
-## 🤝 Contributing
-
-We welcome contributions! If you'd like to help improve RelishEconomy:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
 ## 📜 License
 
 RelishEconomy is **proprietary software** - source code is not publicly available.
