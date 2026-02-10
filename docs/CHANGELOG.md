@@ -1,5 +1,29 @@
 # RelishEconomy Changelog
 
+## Version 1.0.3-Beta (February 10, 2026)
+
+### 🔧 **Bug Fixes**
+- **New Player Balance** - Fixed issue where new players had their balance set instead of added to
+  - Starting balance is now added to existing balance instead of overwriting it
+  - Prevents accidental balance resets for returning players
+  - Maintains proper balance accumulation across sessions
+
+### 🚀 **Upcoming Features**
+- **Player-to-Player Trading** - Direct trade system between players
+  - Secure trade interface with confirmation system
+  - Trade history and logging
+  - Configurable trade limits and cooldowns
+  
+- **Auction House System** - Server-wide marketplace for buying and selling items
+  - List items for auction with custom prices
+  - Bid on items from other players
+  - Automatic payment and item delivery
+  - Auction expiration and refund system
+  - Search and filter functionality
+  - Multi-currency support
+
+---
+
 ## Version 1.0.2-Beta (January 23, 2026)
 
 ### 🛒 **Multi-Currency Shop Support**
