@@ -29,14 +29,7 @@
   - Enhanced examples and guides
   - Better coverage of all features
 
-### 📊 **Real-Time Sync Behavior**
-- First balance check → Reads from database
-- Subsequent checks within TTL → Uses cached data (fast)
-- After TTL expires → Reads from database again (fresh data)
-- Any in-game balance change → Cache invalidated immediately
-- Optimal for multi-server setups with external integrations
-
----
+### ?? **Real-Time Read Behavior**`r`n- Background polling checks for external DB changes`r`n- Only refreshes full balance data when `last_modified` changes`r`n- Optimal for Discord/Web integrations that update balances out-of-band`r`n`r`n---
 
 ## Version 1.0.2-Beta (January 23, 2026)
 
@@ -179,3 +172,4 @@ For questions about this update or issues with migration:
 ---
 
 **Note**: This changelog covers all changes made during the recent development session. For a complete version history, see the Git commit log.
+

@@ -38,7 +38,7 @@ Create unlimited custom currencies with individual properties:
 Choose the right database for your server:
 - **SQLite** - Perfect for small to medium servers (0-500 players)
 - **MySQL** - Ideal for large networks (500+ players)
-- Real-time sync support for Discord/Web integration
+- Real-time read support for Discord/Web integration
 
 ### Seamless Integration
 Works perfectly with your existing plugins:

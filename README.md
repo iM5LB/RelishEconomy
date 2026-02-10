@@ -189,7 +189,7 @@ RelishEconomy's premium shop system provides a comprehensive item marketplace wi
 **Shop GUI Interface:**
 - **Category browser** - Navigate through 15+ organized item categories
 - **Item preview** - See item details and buy prices
-- **Balance display** - Real-time balance updates during shopping
+- **Balance display** - Live balance updates during shopping
 - **Sound effects** - Audio feedback for purchases and navigation
 - **Pagination** - Navigate through multiple pages of items
 - **Search functionality** - Find items across all categories
@@ -292,7 +292,7 @@ The premium Sell GUI provides an intuitive drag-and-drop interface for item sell
 **GUI Features:**
 - **Drag-and-drop zones** - Simply drag items to sell them
 - **Quick grab button** - Auto-collect all sellable items from inventory
-- **Real-time pricing** - See total sale value update as you add items
+- **Live pricing** - See total sale value update as you add items
 - **Total calculator** - View total sale value before confirming
 - **Confirmation system** - Confirm sale with total summary
 - **Sound effects** - Audio feedback for all interactions
@@ -368,7 +368,7 @@ The premium shop GUI provides an elegant and user-friendly shopping experience w
 **Interface Highlights:**
 - **Category browsing** with configurable icons and colors
 - **Item purchasing** with multiple quantity options (1, 32, 64)
-- **Balance display** with real-time updates
+- **Balance display** with live updates
 - **Sound effects** for all interactions
 - **Configurable GUI size** and layout options
 - **Permission-based category access**
@@ -380,7 +380,7 @@ The premium sell GUI offers an intuitive drag-and-drop experience for item selli
 **Interface Features:**
 - **Drag-and-drop** item selling with visual feedback
 - **Quick grab** button to auto-collect sellable items
-- **Real-time value** calculation and display
+- **Live value** calculation and display
 - **Confirmation system** with total sale summary
 - **Sound effects** and particle animations
 - **Multi-currency** payout options
@@ -481,7 +481,7 @@ balance:
 ### 📊 **Scalability Options**
 - **SQLite** for small-medium servers (0-500 players)
 - **MySQL** for large networks (500+ players)
-- **Real-time sync mode** for external integrations
+- **Real-time read mode** for external integrations
 - **Database health monitoring**
 
 ---

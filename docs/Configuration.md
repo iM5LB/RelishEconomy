@@ -27,14 +27,14 @@ language: en
 ```yaml
 database:
   type: sqlite
-  real-time-sync: false
+  real-time-read: false
 ```
 
 #### MySQL (For Networks)
 ```yaml
 database:
   type: mysql
-  real-time-sync: false
+  real-time-read: false
   
   mysql:
     host: localhost
@@ -276,7 +276,7 @@ Use `/re reload` to reload configuration without restarting the server.
 ### Performance
 - Use SQLite for small servers (< 500 players)
 - Use MySQL for large networks (500+ players)
-- Enable real-time sync only if needed for Discord/Web integration
+- Enable real-time read only if you manually update balances in the DB (Discord/Web integration)
 - Adjust cache durations based on server size
 
 ### Security
