@@ -22,14 +22,14 @@
   - Higher values (5-10s): Better performance, slightly delayed updates
   - Recommended: 3-10 seconds for optimal balance
 
-### 📝 **Configuration Example**
-```yaml
-database:
-  real-time-sync: true
-  real-time-sync-ttl: 5  # Cache accounts for 5 seconds
-```
+### 📝 **Documentation**
+- **Complete Documentation Overhaul** - Fully updated documentation website
+  - More clear and detailed information
+  - Improved structure and navigation
+  - Enhanced examples and guides
+  - Better coverage of all features
 
-### 🎯 **Real-Time Sync Behavior**
+### 📊 **Real-Time Sync Behavior**
 - First balance check → Reads from database
 - Subsequent checks within TTL → Uses cached data (fast)
 - After TTL expires → Reads from database again (fresh data)
@@ -46,13 +46,10 @@ database:
   - Prevents accidental balance resets for returning players
   - Maintains proper balance accumulation across sessions
 
----
-
-## Version 1.0.2-Beta (January 23, 2026)
-
 ### 🛒 **Multi-Currency Shop Support**
 
 This update adds full multi-currency support to the shop system, making it consistent with the sell functionality.
+---
 
 ### ✨ **New Features**
 - **Per-Item Shop Currencies** - Shop now uses the same currency system as selling
