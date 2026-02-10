@@ -4,8 +4,6 @@
 
 ![Relish-Economy-Logo](https://cdn.modrinth.com/data/cached_images/9df4655d0afd67ba097405f931695951fcb513f2_0.webp)
 
-
-
 </div>
 
 ---
@@ -56,7 +54,7 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 - 🔥 **Block interactions** (shop/sell blocks)
 - 🔥 **GUI customization** and interactions
 - 🔥 **Physical currency withdrawal**
-- 🔥 **Composter selling** - Throw items on composter to sell items
+- 🔥 **Composter selling** - Right-click composter to sell items
 
 ---
 
@@ -65,10 +63,9 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 1. **Download** the plugin JAR file
 2. **Place** it in your server's `plugins` folder
 3. **Start/Restart** your server
-4. **Configure** in `plugins/RelishEconomy/config.yml`
-5. **Get premium** from [BuiltByBit](https://builtbybit.com/resources/relisheconomy) for advanced features
-6. **Verify your purchase in my [Discord](https://discord.gg/jDr2KZcGXk)**
-
+4. **(Optional)** For premium features, open a ticket in [Discord](https://discord.gg/hjKcHavRjT) to get license key
+5. **Place license key** in `config.yml`
+6. **Reload** the plugin
 
 ```bash
 # Quick setup commands
@@ -197,18 +194,22 @@ RelishEconomy's premium shop system provides a comprehensive item marketplace wi
 - **Pagination** - Navigate through multiple pages of items
 - **Search functionality** - Find items across all categories
 
-<!-- Shop GUI Screenshot Placeholder -->
-*[Screenshot: Shop category selection interface]*
 
-<!-- Shop Item Browser Screenshot Placeholder -->
-*[Screenshot: Item browsing with pricing and purchase options]*
+<div align="center">
+
+## 🔍 Search functionality 
+![Shop Search](https://cdn.modrinth.com/data/cached_images/d2b246b0fa32ce809829b3fa9d5780be933ae7e2.png)
+
+## 🗂️ 15+ of Categories
+![Shop Menu](https://cdn.modrinth.com/data/cached_images/e305729593d7ad061b930e4ff76b86789c74d6c5.png)
+
+</div>
 
 ### 🏪 **Shop Configuration**
 ```yaml
-# shop.yml - Actual configuration format
+# shop.yml
 shop:
-  # NOTE: buy-currency is now deprecated - shop uses per-item currencies from prices.yml
-  buy-currency: "dollars"  # Legacy setting (no longer used)
+  buy-currency: "dollars"
   buy-multiplier: 2.0
   gui:
     title: "<#fdb833>RelishShop"
@@ -267,8 +268,7 @@ The sell system provides multiple ways for players to convert their items into c
 **Sell Methods:**
 - **Command-based selling** - Quick `/sellhand` and `/sellall` commands (Free)
 - **Interactive Sell GUI** - Drag-and-drop interface for selective selling (Premium)
-- **Composter selling** - Throw items on composter to sell instantly (Premium)
-- **Auto-grab functionality** - Automatically collect sellable items from inventory (Premium)
+- **Auto-grab functionality** - Automatically collect sellable items from inventory
 - **Price calculation** - Real-time value calculation with currency conversion
 - **Confirmation system** - Prevent accidental sales with confirmation prompts
 
@@ -297,15 +297,19 @@ The premium Sell GUI provides an intuitive drag-and-drop interface for item sell
 - **Confirmation system** - Confirm sale with total summary
 - **Sound effects** - Audio feedback for all interactions
 
-<!-- Sell GUI Screenshot Placeholder -->
-*[Screenshot: Sell GUI with drag-and-drop interface]*
+<div align="center">
 
-<!-- Sell Confirmation Screenshot Placeholder -->
-*[Screenshot: Sell confirmation dialog with total value]*
+### 👌 Total values calculator
+![Sell GUI](https://cdn.modrinth.com/data/cached_images/98a22983dc91b06672ef74eb6450c8d0ed56da10.png)
+
+### 🪝 Grab all sellable items by one click
+![Sell GUI](https://cdn.modrinth.com/data/cached_images/622d08d604dad3ae3d74c40ce34441f0f5b0fea3.png)
+
+</div>
 
 ### ⚙️ **Sell Configuration**
 ```yaml
-# prices.yml - Actual configuration format
+# prices.yml
 target-currency: "dollars"
 
 prices:
@@ -329,17 +333,17 @@ prices:
 - **Mob drops** - Bones, string, gunpowder, leather
 - **Food items** - Wheat, carrots, potatoes, meat
 
-### 🔧 **Sell Block Interactions**
-Both free and premium users can use physical blocks for convenient item selling:
+### 🔧 **Sell Block Interactions** ⭐
+Premium users can use physical blocks for convenient item selling:
 
 **Sell Block Features:**
-- **Composter item selling** - Throw items on composter to sell instantly (Free)
-- **Right-click COMPOSTER** - Opens sell GUI interface (Premium)
+- **Right-click COMPOSTER** - Opens sell GUI interface
+- **Composter item selling** - Throw items on composter to sell instantly
 - **Configurable cooldown** - Prevents spam (500ms default)
 - **Visual/audio feedback** - Confirmation messages and sounds
 
 ```yaml
-# config.yml - Actual configuration
+# config.yml
 composter-selling:
   enabled: true
   cooldown: 500
@@ -348,10 +352,13 @@ sell-gui-block: COMPOSTER
 shop-gui-block: EMERALD_BLOCK
 ```
 
-<!-- Sell Block Screenshot Placeholder -->
-*[Screenshot: Player using sell block with particle effects]*
+<div align="center">
 
----
+## ✨ Easy to use
+![Relish-Economy-ShopGUI.gif](https://cdn.modrinth.com/data/5RyYvL8C/images/d2f7081e7bac65fea442a276562fb537b6422563.gif)
+
+</div>
+
 
 ## 🎨 **GUI Features** ⭐
 
@@ -366,15 +373,6 @@ The premium shop GUI provides an elegant and user-friendly shopping experience w
 - **Configurable GUI size** and layout options
 - **Permission-based category access**
   
-<div align="center">
-
-# Fancy ShopGUI
-![Relish-Economy-ShopGUI.gif](https://cdn.modrinth.com/data/5RyYvL8C/images/d2f7081e7bac65fea442a276562fb537b6422563.gif)
-
-# Fully customizable with Categories ⭐
-![Relish-Economy-ShopGUI-Category.gif](https://cdn.modrinth.com/data/5RyYvL8C/images/764160c5d241446eea9ec10138534b448d2eda57.gif)
-
-</div>
 
 ### 💼 **Sell Interface**
 The premium sell GUI offers an intuitive drag-and-drop experience for item selling.
@@ -401,12 +399,7 @@ Premium users have full control over GUI appearance and behavior:
 - **Custom titles** - Set personalized GUI titles with color codes
 - **Item icons** - Use any material as category or button icons
 - **Sound effects** - Configure custom sounds for different actions
-- **Animation effects** - Enable particle effects and visual feedback
 - **Layout templates** - Pre-designed layouts or create your own
-
-<!-- GUI Customization Screenshot Placeholder -->
-*[Screenshot: GUI configuration interface showing customization options]*
-
 ---
 
 ## 🔌 **Integrations**
@@ -455,6 +448,8 @@ Full economy provider implementation:
 %relisheconomy_stats_dbhealthy%     # Database health status
 ```
 
+![relisheconomy scoreboard](https://cdn.modrinth.com/data/cached_images/d13ba1e7213dd18a81d28f1a6dfdabff2a63b9f6_0.webp)
+
 ---
 
 ## 🌍 **Multi-Language Support**
@@ -491,31 +486,73 @@ balance:
 
 ---
 
+## 🚀 **Upcoming Features**
+
+We're constantly working to improve RelishEconomy with exciting new features:
+
+### 🤝 **Player-to-Player Trading**
+A secure and intuitive trading system for direct player interactions:
+- **Secure trade interface** with dual confirmation system
+- **Trade history and logging** for all transactions
+- **Configurable trade limits** to prevent abuse
+- **Trade cooldowns** with customizable durations
+- **Item and currency trading** in a single interface
+- **Permission-based restrictions** for controlled access
+
+### 🏛️ **Auction House System**
+A server-wide marketplace for buying and selling items:
+- **List items for auction** with custom prices and durations
+- **Bid on items** from other players with competitive bidding
+- **Automatic payment and item delivery** upon auction completion
+- **Auction expiration and refund system** for unsold items
+- **Search and filter functionality** to find specific items
+- **Multi-currency support** for flexible pricing
+- **Auction history tracking** for buyers and sellers
+- **Category-based browsing** similar to shop system
+
+---
+
 ## 📞 **Support & Links**
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/jDr2KZcGXk)
+[![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
 [![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://im5lb.github.io/relisheconomy)
 [![Issues](https://img.shields.io/badge/🐛%20Issues-Report-orange?style=for-the-badge)](https://github.com/iM5LB/relisheconomy/issues)
-[![Premium](https://img.shields.io/badge/Premium-Buy-gold?style=for-the-badge&logo=paypal)](https://builtbybit.com/resources/relisheconomy)
-[![GitHub](https://img.shields.io/badge/GitHub-Source-black?style=for-the-badge&logo=github)](https://github.com/im5lb/RelishEconomy)
+[![Premium](https://img.shields.io/badge/Premium-Contact-gold?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
+[![Donate](https://img.shields.io/badge/💖%20Donate-Love-ff69b4?style=for-the-badge)](https://creators.sa/m5lb)
 </div>
 
 ---
 
 ## 📄 **License**
 
-RelishEconomy is available in two versions:
-- **Free Version**: Basic economy features
-- **Premium Version**: Advanced features and GUIs
+**RelishEconomy is proprietary software. All rights reserved.**
 
-For premium licensing, visit [BuiltByBit](https://builtbybit.com/resources/relisheconomy).
+### License Types
+
+#### 🆓 Free Version
+- Available without license key
+- Basic economy features included
+- May be used on unlimited servers
+- **NOT open source** - modification and redistribution prohibited
+
+#### ⭐ Premium Version
+- Requires valid license key from M5LB
+- Includes all premium features (Shop GUI, Sell GUI, Physical Currency, etc.)
+- License key tied to purchaser and server count
+- **NOT open source** - modification and redistribution prohibited
+
+For full license terms, see [LICENSE](LICENSE) file.
+
+### Obtain Premium License
+
+To get a premium license key:
+- 🎫 **Open a ticket in [Discord](https://discord.gg/hjKcHavRjT)**
 
 ---
-
 <div align="center">
 
-**Made with ❤️ by the Relish Development Team**
+**Made with ❤️ by M5LB**
 
 </div>

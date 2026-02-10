@@ -1,21 +1,114 @@
-MIT License
+RELISHECONOMY PROPRIETARY LICENSE
 
-Copyright (c) 2024 Relish Development Team
+Copyright (c) 2024-2026 M5LB
+All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+IMPORTANT: READ CAREFULLY BEFORE USING THIS SOFTWARE
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This software is proprietary and confidential. By using this software, you agree 
+to be bound by the terms of this license agreement.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. LICENSE GRANT
+
+   1.1 Free Version
+       - You may use the free version of RelishEconomy without a license key
+       - Free version includes basic economy features with limited functionality
+       - Free version may be used on unlimited servers
+       - Free version may not be modified, reverse-engineered, or redistributed
+
+   1.2 Premium Version
+       - Premium features require a valid license key
+       - License keys are issued directly by M5LB
+       - Each license key is valid for the number of servers specified at issuance
+       - Premium features include: Shop GUI, Sell GUI, Physical Currency, and more
+       - License keys are non-transferable and tied to the purchaser
+
+2. RESTRICTIONS
+
+   You may NOT:
+   - Decompile, reverse engineer, or disassemble the software
+   - Remove or modify any proprietary notices or labels
+   - Distribute, sublicense, or sell copies of the software
+   - Share your license key with others
+   - Use the software for any illegal purposes
+   - Modify the source code (if provided) without written permission
+   - Create derivative works based on this software
+   - Bypass or circumvent the license validation system
+
+3. OWNERSHIP
+
+   This software is licensed, not sold. M5LB retains all rights, title, and 
+   interest in and to the software, including all intellectual property rights. 
+   Your license does not grant you any rights to trademarks or service marks.
+
+4. LICENSE VALIDATION
+
+   - Premium features require online license validation
+   - The software may periodically verify your license key
+   - Invalid or expired licenses will disable premium features
+   - License keys may be revoked for violations of this agreement
+
+5. SUPPORT AND UPDATES
+
+   - Free version: Community support only
+   - Premium version: Priority support and automatic updates
+   - Support is provided "as-is" without guaranteed response times
+   - Updates may require license revalidation
+
+6. REFUND POLICY
+
+   - Refunds are handled on a case-by-case basis
+   - No refunds for license key misuse or violations
+   - Contact M5LB directly for refund requests
+
+7. TERMINATION
+
+   This license is effective until terminated. Your rights under this license will
+   terminate automatically without notice if you fail to comply with any term of
+   this agreement. Upon termination, you must destroy all copies of the software.
+
+8. WARRANTY DISCLAIMER
+
+   THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. THE ENTIRE RISK AS
+   TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU.
+
+9. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL M5LB BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR 
+   CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR 
+   LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, 
+   OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE 
+   THIS SOFTWARE.
+
+10. OBTAINING LICENSE KEYS
+
+    To obtain a premium license key:
+    - Open a ticket in Discord: https://discord.gg/hjKcHavRjT
+    - License keys are issued by M5LB through Discord tickets only
+    - Do not purchase keys from third parties or unauthorized sources
+    
+    Keys from unauthorized sources are invalid and will not work.
+
+11. CONTACT
+
+    For licensing inquiries, support, or questions:
+    - Discord: https://discord.gg/hjKcHavRjT (Open a ticket)
+    - GitHub: https://github.com/iM5LB/relisheconomy
+    - Documentation: https://im5lb.github.io/relisheconomy
+
+12. GOVERNING LAW
+
+    This agreement shall be governed by and construed in accordance with applicable
+    international laws, without regard to conflict of law provisions.
+
+13. ENTIRE AGREEMENT
+
+    This agreement constitutes the entire agreement between you and M5LB regarding 
+    the use of this software and supersedes all prior agreements.
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT,
+UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+Last Updated: February 10, 2026
