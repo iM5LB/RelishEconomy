@@ -2,26 +2,6 @@
 
 ## Version 1.0.3-Beta (February 10, 2026)
 
-### 🔧 **Bug Fixes**
-- **New Player Balance** - Fixed issue where new players had their balance set instead of added to
-  - Starting balance is now added to existing balance instead of overwriting it
-  - Prevents accidental balance resets for returning players
-  - Maintains proper balance accumulation across sessions
-
-### ⚡ **Performance Improvements**
-- **Real-Time Sync Optimization** - Implemented smart TTL caching for real-time sync mode
-  - Accounts are cached for a configurable duration (default: 5 seconds)
-  - Dramatically reduces database queries while maintaining data freshness
-  - External database changes now visible within the TTL window
-  - Write operations immediately invalidate cache for instant updates
-  - Up to 80-90% reduction in database queries
-
-### ✨ **New Configuration Options**
-- **`real-time-sync-ttl`** - Configure cache duration in seconds (default: 5)
-  - Lower values (1-3s): More up-to-date data, more DB queries
-  - Higher values (5-10s): Better performance, slightly delayed updates
-  - Recommended: 3-10 seconds for optimal balance
-
 ### 📝 **Documentation**
 - **Complete Documentation Overhaul** - Fully updated documentation website
   - More clear and detailed information
@@ -29,7 +9,20 @@
   - Enhanced examples and guides
   - Better coverage of all features
 
-### ?? **Real-Time Read Behavior**`r`n- Background polling checks for external DB changes`r`n- Only refreshes full balance data when `last_modified` changes`r`n- Optimal for Discord/Web integrations that update balances out-of-band`r`n`r`n---
+### 🔄 **Real-Time Read Behavior**
+- Background polling checks for external DB changes
+- Only refreshes full balance data when `last_modified` changes
+- Optimal for Discord/Web integrations that update balances out-of-band
+
+*You need to replace Real-Time Sync with new config*
+```yaml
+database:
+  # Real-time read mode (read from DB when balances change externally)
+  # Recommended: true only if you manually edit DB and need instant visibility
+  real-time-read: false
+```
+
+---
 
 ## Version 1.0.2-Beta (January 23, 2026)
 
