@@ -16,6 +16,13 @@ RelishEconomy provides comprehensive PlaceholderAPI support with caching for opt
 ```
 Returns the raw balance as a number (e.g., `1000.50`)
 
+Also supported:
+```
+%relisheconomy_balance_formatted%
+%relisheconomy_balance_formatted_[currency]%
+```
+These return the formatted balance variant.
+
 **Examples:**
 - `%relisheconomy_balance_dollars%` → `1000.50`
 - `%relisheconomy_balance_coins%` → `25`
@@ -27,12 +34,39 @@ Returns the raw balance as a number (e.g., `1000.50`)
 ```
 Returns the formatted balance with currency symbol and color (e.g., `$1,000.50`)
 
+Advanced formatted variants are also supported:
+```
+%relisheconomy_formatted_[currency]_[type]_[style]%
+```
+
+`type`:
+- `compact` -> `1.2k`, `3.4m`, `2b`
+- `full` -> full number with separators
+- `raw` -> numeric only (no currency symbol)
+
+`style`:
+- `colored` (default)
+- `plain`
+
 **Examples:**
 - `%relisheconomy_formatted_dollars%` → `$1,000.50`
 - `%relisheconomy_formatted_coins%` → `◎25`
 - `%relisheconomy_formatted%` → Uses default currency
 
+Additional examples:
+- `%relisheconomy_formatted_dollars_compact_colored%` -> compact colored format
+- `%relisheconomy_formatted_dollars_compact_plain%` -> compact plain format
+- `%relisheconomy_formatted_dollars_full_plain%` -> full plain format
+- `%relisheconomy_formatted_dollars_raw_plain%` -> raw numeric plain format
+
 ## Leaderboard Placeholders
+
+You can use either:
+```
+%relisheconomy_baltop_...%
+%relisheconomy_leaderboard_...%
+%relisheconomy_top_...%
+```
 
 ### Player Names
 ```
@@ -245,7 +279,7 @@ conditions:
 ### Placeholder Not Working
 1. Verify PlaceholderAPI is installed and loaded
 2. Check that the currency name is correct (case-sensitive)
-3. Ensure the player has played before (offline players supported)
+3. Ensure the target player/account exists in your economy data
 4. Use `/papi parse [player] [placeholder]` to test
 
 ### Performance Issues
@@ -258,3 +292,31 @@ conditions:
 - Missing currency parameter (defaults to main currency)
 - Invalid position numbers in baltop placeholders
 - Typos in placeholder names (check spelling)
+
+## Additional Baltop Variants
+
+You can use advanced formatting controls on baltop balances:
+
+```
+%relisheconomy_baltop_[position]_[currency]_balance_[type]_[style]%
+%relisheconomy_baltop_[position]_[currency]_formatted_[type]_[style]%
+```
+
+`type`:
+- `compact`
+- `full`
+- `raw`
+
+`style`:
+- `colored` (default)
+- `plain`
+
+Examples:
+- `%relisheconomy_baltop_1_dollars_balance_compact_plain%`
+- `%relisheconomy_baltop_1_dollars_formatted_full_colored%`
+- `%relisheconomy_baltop_1_dollars_formatted_raw_plain%`
+
+Extra player identifier placeholder:
+```
+%relisheconomy_baltop_[position]_[currency]_uuid%
+```

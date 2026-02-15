@@ -1,5 +1,39 @@
 # RelishEconomy Changelog
 
+## Version 1.0.4-Alpha (February 15, 2026)
+
+### 🔌 **Towny + Vault Compatibility**
+- Added `loadbefore: [Towny]` in `plugin.yml` to improve startup ordering
+- Improved Vault hook reliability:
+  - Checks that Vault is enabled before registering provider
+  - Re-registers safely if already hooked
+  - Added startup retry hook attempts when Vault is late to initialize
+- Added clearer startup logging for Vault provider registration
+
+### 🏦 **Bank Account Support for Town/Nation Economy**
+- Implemented full Vault bank API behavior for non-player accounts
+- Added deterministic internal bank account IDs (name-based UUIDs) for stable persistence
+- Enabled `hasBankSupport()` for proper Towny bank operations
+- Added bank operations:
+  - `createBank`, `deleteBank`, `bankBalance`, `bankHas`, `bankDeposit`, `bankWithdraw`
+  - `isBankOwner`, `isBankMember`
+
+### 🧩 **PlaceholderAPI Improvements**
+- Fixed player placeholder requests failing for online/new accounts
+- Improved placeholder parsing and compatibility:
+  - Added leaderboard aliases: `leaderboard` and `top` (mapped to `baltop`)
+  - Added formatted balance aliases via `balance_formatted`
+- Improved raw balance output formatting:
+  - Respects currency decimal settings
+  - Uses stable locale formatting for numeric placeholders
+- Prevented blank leaderboard placeholder outputs on cold cache/invalid positions by returning safe fallback values
+
+### 📘 **Documentation**
+- Updated `docs/PlaceholderAPI.md` with new alias placeholders and behavior notes
+- Updated troubleshooting notes for placeholder account handling
+
+---
+
 ## Version 1.0.3-Beta (February 10, 2026)
 
 ### 📝 **Documentation**
