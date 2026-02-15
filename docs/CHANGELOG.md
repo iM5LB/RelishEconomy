@@ -1,6 +1,6 @@
 # RelishEconomy Changelog
 
-## Version 1.0.4-Alpha (February 15, 2026)
+## Version 1.0.4-Beta (February 15, 2026)
 
 ### 🔌 **Towny + Vault Compatibility**
 - Added `loadbefore: [Towny]` in `plugin.yml` to improve startup ordering
