@@ -13,6 +13,7 @@ const PAGES = [
   
   { file: 'Commands.md', title: 'Commands', section: 'Reference' },
   { file: 'PlaceholderAPI.md', title: 'PlaceholderAPI', section: 'Reference' },
+  { file: 'CHANGELOG.md', title: 'CHANGELOG', section: 'Reference' },
 ];
 
 // DOM Elements
