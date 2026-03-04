@@ -2,6 +2,8 @@
 
 Welcome to the complete documentation for RelishEconomy, the advanced multi-currency economy plugin for Minecraft servers running Paper 1.21+.
 
+![M5LB Store Banner](assets/M5LBStore.png)
+
 ## Quick Navigation
 
 - **[Installation Guide](Installation.md)** - Get RelishEconomy up and running
@@ -34,12 +36,14 @@ Create unlimited custom currencies with individual properties:
 - Starting balances for new players
 - Permission-based access control
 - Decimal or whole number support
+- Built-in language files: English (`en`), Arabic (`ar`), Portuguese (`pt`)
 
 ### Database Flexibility
 Choose the right database for your server:
 - **SQLite** - Perfect for small to medium servers (0-500 players)
 - **MySQL** - Ideal for large networks (500+ players)
 - Real-time read support for Discord/Web integration
+- Stores player identity in balances (`uuid`, `player_name`, `discord_id`)
 
 ### Seamless Integration
 Works perfectly with your existing plugins:
@@ -51,7 +55,7 @@ Works perfectly with your existing plugins:
 
 1. **Choose Your Version**
    - Download the free version from [Modrinth](https://modrinth.com/plugin/relish-economy)
-   - Or get premium features from [BuiltByBit](https://builtbybit.com/resources/relish-economy.90571)
+   - Or get premium features from the [M5LB Store](https://m5lb.run.place/)
 
 2. **Follow Installation Guide**
    - Check our [Installation Guide](Installation.md) for step-by-step setup
@@ -63,5 +67,6 @@ Works perfectly with your existing plugins:
 
 ## Need Help?
 
+- [Premium Store](https://m5lb.run.place/)
 - [Discord Support](https://discord.gg/jDr2KZcGXk)
 - [Report Issues](https://github.com/iM5LB/relisheconomy/issues)

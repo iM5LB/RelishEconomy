@@ -4,6 +4,8 @@
 
 RelishEconomy is a powerful, feature-rich economy plugin that brings advanced financial systems to your Minecraft server. With support for multiple currencies, interactive GUIs, and seamless integration with popular plugins, it's the perfect solution for servers of any size.
 
+![M5LB Store Banner](assets/M5LBStore.png)
+
 ## ✨ Key Features
 
 ### 🆓 Free Version
@@ -17,7 +19,7 @@ RelishEconomy is a powerful, feature-rich economy plugin that brings advanced fi
 - **Baltop Leaderboards** - Competitive economy rankings
 - **Payment System** - Player-to-player transfers
 - **Currency Exchange** - Convert between currencies
-- **Arabic & English** - Built-in language support
+- **Arabic, English, and Portuguese** - Built-in language support
 
 ### ⭐ Premium Version
 - **Interactive Shop GUI** - Category-based shopping interface
@@ -32,7 +34,7 @@ RelishEconomy is a powerful, feature-rich economy plugin that brings advanced fi
 ## 📥 Download
 
 - **Free Version**: [Modrinth](https://modrinth.com/plugin/relisheconomy)
-- **Premium License**: [Open Discord Ticket](https://discord.gg/jDr2KZcGXk) - Contact us for premium features
+- **Premium License**: [M5LB Store](https://m5lb.run.place/) - Buy premium keys
 
 ## 📚 Documentation
 
@@ -68,17 +70,17 @@ RelishEconomy is a powerful, feature-rich economy plugin that brings advanced fi
 - **Highly Customizable** - Every message, GUI, and feature is configurable
 - **Developer Friendly** - Clean API for plugin integration
 - **Active Development** - Regular updates and new features
-- **Bilingual** - Full Arabic and English support
+- **Multilingual** - Full Arabic, English, and Portuguese support
 
 ## 📜 License
 
 RelishEconomy is **proprietary software** - source code is not publicly available.
 
 - **Free Version**: Available for personal and commercial use via [Modrinth](https://modrinth.com/plugin/relisheconomy)
-- **Premium License**: Sold exclusively through [Discord tickets](https://discord.gg/jDr2KZcGXk) - premium source code is not shared
+- **Premium License**: Sold through the [M5LB Store](https://m5lb.run.place/) - premium source code is not shared
 - **Usage**: Licensed per server - contact us for multi-server licensing
 
-To purchase a premium license, join our Discord and open a ticket.
+To purchase a premium license, visit the [M5LB Store](https://m5lb.run.place/).
 
 ---
 
@@ -86,6 +88,6 @@ To purchase a premium license, join our Discord and open a ticket.
 
 **Made with ❤️ by [iM5LB](https://github.com/iM5LB)**
 
-[Discord](https://discord.gg/jDr2KZcGXk) • [Documentation](https://im5lb.github.io/relisheconomy/) • [Download](https://modrinth.com/plugin/relisheconomy)
+[Store](https://m5lb.run.place/) • [Discord](https://discord.gg/jDr2KZcGXk) • [Documentation](https://im5lb.github.io/relisheconomy/) • [Download](https://modrinth.com/plugin/relisheconomy)
 
 </div>

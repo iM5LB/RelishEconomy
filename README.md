@@ -3,6 +3,13 @@
 ## Modern economy plugin with multi-currency support
 
 ![Relish-Economy-Logo](https://cdn.modrinth.com/data/cached_images/9df4655d0afd67ba097405f931695951fcb513f2_0.webp)
+![M5LB Store Banner](docs/assets/M5LBStore.png)
+
+[![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
+[![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://im5lb.github.io/relisheconomy)
+[![Issues](https://img.shields.io/badge/🐛%20Issues-Report-orange?style=for-the-badge)](https://github.com/iM5LB/relisheconomy/issues)
+[![Store](https://img.shields.io/badge/Store-License%20Keys-gold?style=for-the-badge)](https://m5lb.run.place/)
+[![Donate](https://img.shields.io/badge/💖%20Donate-Love-ff69b4?style=for-the-badge)](https://creators.sa/m5lb)
 
 </div>
 
@@ -63,7 +70,7 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 1. **Download** the plugin JAR file
 2. **Place** it in your server's `plugins` folder
 3. **Start/Restart** your server
-4. **(Optional)** For premium features, open a ticket in [Discord](https://discord.gg/hjKcHavRjT) to get license key
+4. **(Optional)** For premium features, buy a license key from [M5LB Store](https://m5lb.run.place/)
 5. **Place license key** in `config.yml`
 6. **Reload** the plugin
 
@@ -197,10 +204,10 @@ RelishEconomy's premium shop system provides a comprehensive item marketplace wi
 
 <div align="center">
 
-## 🔍 Search functionality 
+### 🔍 Fast Item Search
 ![Shop Search](https://cdn.modrinth.com/data/cached_images/d2b246b0fa32ce809829b3fa9d5780be933ae7e2.png)
 
-## 🗂️ 15+ of Categories
+### 🗂️ 15+ Shop Categories
 ![Shop Menu](https://cdn.modrinth.com/data/cached_images/e305729593d7ad061b930e4ff76b86789c74d6c5.png)
 
 </div>
@@ -301,10 +308,10 @@ The premium Sell GUI provides an intuitive drag-and-drop interface for item sell
 
 <div align="center">
 
-### 👌 Total values calculator
+### 👌 Total Sale Value Calculator
 ![Sell GUI](https://cdn.modrinth.com/data/cached_images/98a22983dc91b06672ef74eb6450c8d0ed56da10.png)
 
-### 🪝 Grab all sellable items by one click
+### 🪝 Grab All Sellable Items in One Click
 ![Sell GUI](https://cdn.modrinth.com/data/cached_images/622d08d604dad3ae3d74c40ce34441f0f5b0fea3.png)
 
 </div>
@@ -359,11 +366,13 @@ shop-gui-block: EMERALD_BLOCK
 
 <div align="center">
 
-## ✨ Easy to use
+### ✨ Easy to Use
 ![Relish-Economy-ShopGUI.gif](https://cdn.modrinth.com/data/5RyYvL8C/images/d2f7081e7bac65fea442a276562fb537b6422563.gif)
 
 </div>
 
+
+---
 
 ## 🎨 **GUI Features** ⭐
 
@@ -518,19 +527,6 @@ A server-wide marketplace for buying and selling items:
 
 ---
 
-## 📞 **Support & Links**
-
-<div align="center">
-
-[![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
-[![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://im5lb.github.io/relisheconomy)
-[![Issues](https://img.shields.io/badge/🐛%20Issues-Report-orange?style=for-the-badge)](https://github.com/iM5LB/relisheconomy/issues)
-[![Premium](https://img.shields.io/badge/Premium-Contact-gold?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
-[![Donate](https://img.shields.io/badge/💖%20Donate-Love-ff69b4?style=for-the-badge)](https://creators.sa/m5lb)
-</div>
-
----
-
 ## 📄 **License**
 
 **RelishEconomy is proprietary software. All rights reserved.**
@@ -554,7 +550,7 @@ For full license terms, see [LICENSE](https://github.com/iM5LB/relisheconomy?tab
 ### Obtain Premium License
 
 To get a premium license key:
-- 🎫 **Open a ticket in [Discord](https://discord.gg/hjKcHavRjT)**
+- 🛒 **Buy a key from [M5LB Store](https://m5lb.run.place/)**
 
 ---
 <div align="center">

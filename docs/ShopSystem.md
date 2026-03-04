@@ -6,7 +6,7 @@ Complete guide to the interactive shop system (Premium Feature).
 
 The Shop System allows players to buy items through an intuitive GUI interface. Items are organized into categories for easy browsing.
 
-> **Premium Feature**: The Shop System requires a premium license purchased through [Discord ticket](https://discord.gg/jDr2KZcGXk). Premium source code is not shared - the license key activates these features.
+> **Premium Feature**: The Shop System requires a premium license purchased from the [M5LB Store](https://m5lb.run.place/). Premium source code is not shared - the license key activates these features.
 
 ## Accessing the Shop
 

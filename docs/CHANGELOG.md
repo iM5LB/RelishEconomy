@@ -1,5 +1,26 @@
 # RelishEconomy Changelog
 
+## Version 1.0.8-Beta (March 4, 2026)
+
+### ✨ Added
+- Added persistent player username storage (`player_name`) in balances for both SQLite and MySQL.
+- Added built-in Portuguese language file: `lang/pt.yml`.
+
+### 🔧 Improvements
+- Database name validation now allows any practical name up to 64 chars. Rejects only unsafe cases: empty, leading/trailing spaces, control chars, /, \, or null char.
+- Added automatic DB migration to create `player_name` on existing balances tables.
+- Account load/join flow now refreshes and saves latest player usernames.
+- Added new schema default key: `database.schema.balances.columns.player_name`.
+- Added general performance and database/cache handling optimizations.
+
+### 📘 Documentation
+- Updated README and docs to include Portuguese language support.
+- Updated database docs to describe stored identity fields (`uuid`, `player_name`, `discord_id`).
+- Refined README top layout by moving support/store links under the top images.
+- Improved README screenshot section headings for clearer and more consistent presentation.
+
+---
+
 ## Version 1.0.7-Beta (March 1, 2026)
 
 ### ✨ **Added**

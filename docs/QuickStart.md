@@ -16,7 +16,7 @@ Before installing RelishEconomy, make sure you have:
 
 Choose your version:
 - **Free Version**: [Download from Modrinth](https://modrinth.com/plugin/relisheconomy)
-- **Premium License**: [Open Discord Ticket](https://discord.gg/jDr2KZcGXk) to purchase premium access
+- **Premium License**: [M5LB Store](https://m5lb.run.place/) to purchase premium access
 
 ### 2. Install the Plugin
 
@@ -94,11 +94,11 @@ Try these commands to verify everything works:
 
 ## Premium Features Setup
 
-If you purchased a premium license through Discord:
+If you purchased a premium license through the M5LB Store:
 
 ### 1. Add Your License Key
 
-After purchasing through Discord ticket, you'll receive your license key:
+After purchasing from the M5LB Store, you'll receive your license key:
 
 ```yaml
 # config.yml
@@ -169,10 +169,11 @@ Now that you have RelishEconomy installed:
 1. **[Configure Currencies](Configuration.md)** - Set up multiple currencies
 2. **[Learn Commands](Commands.md)** - Master all available commands
 3. **[Setup PlaceholderAPI](PlaceholderAPI.md)** - Add economy info to scoreboards
-4. **[Join Discord](https://discord.gg/jDr2KZcGXk)** - Get help and share feedback
+4. **[Visit Store](https://m5lb.run.place/)** - Purchase premium license keys
 
 ## Need Help?
 
 - **Discord**: [Join our support server](https://discord.gg/jDr2KZcGXk)
+- **Store**: [M5LB Store](https://m5lb.run.place/)
 - **Documentation**: [Full documentation](https://im5lb.github.io/relisheconomy/)
 - **Issues**: [Report bugs on GitHub](https://github.com/iM5LB/relisheconomy/issues)

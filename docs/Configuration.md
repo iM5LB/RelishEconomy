@@ -21,7 +21,7 @@ check-for-updates: true
 metrics:
   enabled: true
 
-# Language (en, ar, or custom)
+# Language (en, ar, pt, or custom)
 language: en
 ```
 
@@ -47,6 +47,14 @@ database:
     username: root
     password: your_password
 ```
+
+Balances store player identity and economy values using:
+- `uuid`
+- `player_name`
+- `discord_id`
+- `currency`
+- `balance`
+- `last_modified`
 
 ### Currency Configuration
 
@@ -145,6 +153,17 @@ balance:
 pay:
   sent: "<green>تم إرسال {amount} إلى {player}"
   received: "<green>تم استلام {amount} من {player}"
+```
+
+### Portuguese (lang/pt.yml)
+```yaml
+balance:
+  current: "<green>Seu saldo: {balance}"
+  other: "<green>Saldo de {player}: {balance}"
+  
+pay:
+  sent: "<green>Enviado {amount} para {player}"
+  received: "<green>Recebido {amount} de {player}"
 ```
 
 ### Custom Languages
@@ -251,6 +270,8 @@ database:
       table: "player_balances"
       columns:
         uuid: "player_uuid"
+        player_name: "player_name"
+        discord_id: "discord_id"
         currency: "currency_name"
         balance: "amount"
         
