@@ -26,6 +26,16 @@ Examples:
 - `%relisheconomy_balance_dollars%` -> `1000.50`
 - `%relisheconomy_balance_coins%` -> `25` (if `decimals-enabled: false`)
 
+You can also append the same formatting options used by `formatted`:
+
+```text
+%relisheconomy_balance_<currency>_<type>_<style>%
+```
+
+Examples:
+- `%relisheconomy_balance_dollars_full_plain%` -> `1,250.00`
+- `%relisheconomy_balance_dollars_compact_plain%` -> `1.2K`
+
 ### Formatted Balance
 
 ```text

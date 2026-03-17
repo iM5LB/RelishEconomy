@@ -483,6 +483,7 @@ Full economy provider implementation:
 **Balance Placeholders:**
 ```
 %relisheconomy_balance_[currency]%        # Raw balance (e.g. 1000.50)
+%relisheconomy_balance_[currency]_[type]_[style]%  # Formatting options (e.g. 1,250.00 via full_plain)
 %relisheconomy_formatted_[currency]%      # Formatted balance (e.g. $1,000.50)
 ```
 

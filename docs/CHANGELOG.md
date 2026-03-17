@@ -1,5 +1,20 @@
 ﻿# RelishEconomy Changelog
 
+## Version 1.1.0-Beta (March 17, 2026)
+
+### Added
+- Per-currency enable/disable toggle: `currencies.<name>.enabled` (default: `true`)
+- Plugin now disables itself during startup if **zero** currencies are enabled (prevents broken/partial boot states).
+
+### Fixed
+- Baltop database spam reduction:
+  - Skips invalid/blank UUID rows in the balances table instead of warning per row.
+  - Emits a single throttled warning when invalid rows are detected.
+- PlaceholderAPI formatting:
+  - `%relisheconomy_balance_<currency>_<type>_<style>%` now supports the same formatting options as `formatted`
+    (example: `full_plain` -> `1,250.00`).
+---
+
 ## Version 1.0.9-Beta (March 10, 2026)
 
 This release is a large shop/GUI + configuration update, plus expanded physical currency customization and a safer config updater.
