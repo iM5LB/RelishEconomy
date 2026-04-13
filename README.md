@@ -59,10 +59,14 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 ### ⭐ **Premium Version**
 - ⭐ **Shop GUI** with category browsing
 - ⭐ **Sell GUI** for item selling
+- ⭐ **Transaction Logs GUI** for sell history navigation
 - ⭐ **Block interactions** (shop/sell blocks)
 - ⭐ **GUI customization** and interactions
 - ⭐ **Physical currency withdraw and shift-deposit**
+- ⭐ **ATM GUI** for physical currency deposit and withdraw
 - ⭐ **Craftable physical currency with owner metadata**
+- ⭐ **Custom model data** support for physical currencies
+- ⭐ **Natural-source currency conversion** for configured item sources
 - ⭐ **Composter selling** - throw items on composter to sell them
 
 
@@ -101,6 +105,7 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 | `/shop` ⭐ | Open shop GUI | `/shop` |
 | `/shop help` ⭐ | Show shop help | `/shop help` |
 | `/sell [subcommands]` ⭐ | Open sell GUI | `/sell price` |
+| `/re atm` ⭐ | Open ATM GUI | `/re atm` |
 | `/sellhand` | Sell item in hand | `/sellhand` |
 | `/sellhotbar` | Sell hotbar items | `/sellhotbar` |
 | `/sellall` | Sell all items | `/sellall confirm` |
@@ -175,15 +180,16 @@ currencies:
         - "<gray>Owner: <white>{owner}"
         - ""
         - "<yellow>Shift + Right-Click to deposit"
+      custom-model-data: 2001
+      natural-source:
+        enabled: true
+        value-per-item: 1.0
+        match-any-meta: false
     crafting:
       enabled: false
       value: 1.0
       amount: 1
 ```
-
-Physical currency notes and coins keep the owner name in their item metadata. `/withdraw` sets the owner to the player, and crafted physical currency is rewritten to the crafting player as well.
-
-![Physical coin](docs/assets/PhysicalCoin.gif)
 
 ### 🗄️ **Database Options**
 ```yaml
@@ -197,6 +203,35 @@ database:
     username: root
     password: password
 ```
+
+⭐ Physical currency notes and coins keep the owner name in their item metadata. `/withdraw` sets the owner to the player, crafted physical currency is rewritten to the crafting player, and custom model data can be applied per currency item.
+
+![Physical coin](docs/assets/PhysicalCoin.gif)
+
+⭐ Natural-source currency conversion can also turn configured gameplay item sources into the physical currency item itself. This is configured per currency.
+
+![Natural-currency](docs/assets/Natural-currency.gif)
+
+
+⭐ ATM menu for physical currencies. Players can deposit supported currency items directly into the tray, switch between currencies, choose withdraw amounts, and confirm the action from a single GUI.
+
+**ATM Highlights:**
+- **Deposit tray** - Queue supported physical currency items for deposit
+- **Withdraw flow** - Select currency, adjust amount, and withdraw as physical items
+- **Block access** - Open the ATM from a configured block interaction
+- **Shop-style layout** - Uses the same focused quantity workflow as the purchase GUI
+
+**ATM Config**
+```yaml
+atm:
+  enabled: true
+  block:
+    material: LOOM
+    require-sneak: true
+```
+
+![ATM Overview](docs/assets/ATM-Overview.gif)
+
 ### 🔄 **Currency Exchange**
 ```yaml
 exchange-fee-percentage: 2.5
@@ -232,7 +267,7 @@ RelishEconomy can import data from other economy plugins:
 
 ---
 
-## 🛒 **Shop System** ⭐
+## ⭐ **Shop System**
 
 ### 📦 **Shop Features**
 RelishEconomy's premium shop system provides a comprehensive item marketplace with intuitive GUI interfaces and flexible configuration options.
@@ -316,10 +351,11 @@ The sell system provides multiple ways for players to convert their items into c
 
 **Sell Methods:**
 - **Command-based selling** - Quick `/sellhand`, `/sellhotbar`, and `/sellall` commands (Free)
-- **Interactive Sell GUI** - Drag-and-drop interface for selective selling (Premium)
+- ⭐ **Interactive Sell GUI** - Drag-and-drop interface for selective selling
 - **Auto-grab functionality** - Automatically collect sellable items from inventory
 - **Price calculation** - Real-time value calculation with currency conversion
 - **Confirmation system** - Prevent accidental sales with confirmation prompts
+- ⭐ **Logs view** - Open sell history from the sell GUI
 
 ![SellGUI](docs/assets/SellGUI.png)
 
@@ -327,7 +363,7 @@ The sell system provides multiple ways for players to convert their items into c
 - **Multi-currency payouts** - Receive payment in configured target currency
 - **Bulk selling** - Sell entire stacks or inventory contents at once
 - **500+ sellable items** - Comprehensive item price database
-- **Composter selling** - Throw items on composter for instant selling (Premium)
+- ⭐ **Composter selling** - Throw items on composter for instant selling
 - **Transaction logging** - Track all sell transactions for auditing
 - **Sold-items hover summary** - Hover chat output to view sold item breakdown
 
@@ -348,7 +384,7 @@ The sell system provides multiple ways for players to convert their items into c
 
 These commands work without a premium license. Only the sell GUI, composter selling, and sell block interactions are premium.
 
-### 🖱️ **Sell GUI Interface** ⭐
+### ⭐ **Sell GUI Interface**
 The premium Sell GUI provides an intuitive drag-and-drop interface for item selling:
 
 
@@ -390,7 +426,7 @@ prices:
 - **Mob drops** - Bones, string, gunpowder, leather
 - **Food items** - Wheat, carrots, potatoes, meat
 
-### 🔧 **Sell Block Interactions** ⭐
+### ⭐ **Sell Block Interactions**
 Premium users can use physical blocks for convenient item selling:
 
 **Sell Block Features:**
@@ -409,7 +445,7 @@ sell-gui-block: COMPOSTER
 shop-gui-block: EMERALD_BLOCK
 ```
 
-### 💰 **Physical Currency**
+### ⭐ **Physical Currency**
 
 Players can withdraw supported currencies into physical items, trade them, then deposit them back with `Shift + Right-Click`.
 
@@ -417,6 +453,8 @@ Each currency can control this separately:
 - `currencies.<name>.physical-item.withdraw-enabled`
 - `currencies.<name>.physical-item.deposit-enabled`
 - `currencies.<name>.crafting.enabled`
+- `currencies.<name>.physical-item.custom-model-data`
+- `currencies.<name>.physical-item.natural-source.enabled`
 
 Crafted physical currency also stores the crafting player as the owner, matching withdrawn notes and coins.
 
@@ -425,9 +463,9 @@ Crafted physical currency also stores the crafting player as the owner, matching
 
 ---
 
-## 🎨 **GUI Features** ⭐
+## ⭐ **GUI Features**
 
-### 🛒 **Shop Interface**
+### ⭐ **Shop Interface**
 The premium shop GUI provides an elegant and user-friendly shopping experience with full customization options.
 <div align="center">
 
@@ -444,7 +482,7 @@ The premium shop GUI provides an elegant and user-friendly shopping experience w
 - **Permission-based category access**
   
 
-### 💼 **Sell Interface**
+### ⭐ **Sell Interface**
 The premium sell GUI offers an intuitive drag-and-drop experience for item selling.
 
 
@@ -458,7 +496,7 @@ The premium sell GUI offers an intuitive drag-and-drop experience for item selli
 - **Multi-currency** payout options
 
 
-### 🎛️ **GUI Customization** ⭐
+### ⭐ **GUI Customization**
 Premium users have full control over GUI appearance and behavior:
 
 **Customization Options:**
@@ -570,7 +608,7 @@ balance:
 
 #### ⭐ Premium Version
 - Requires valid license key from M5LB
-- Includes premium-only features such as Shop GUI, Sell GUI, physical currency, and premium block interactions
+- Includes premium-only features such as Shop GUI, Sell GUI, ATM GUI, transaction logs GUI, physical currency, and premium block interactions
 - License key tied to purchaser and server count
 - **NOT open source** - modification and redistribution prohibited
 

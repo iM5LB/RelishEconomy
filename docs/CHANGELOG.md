@@ -1,4 +1,39 @@
-﻿# RelishEconomy Changelog
+# RelishEconomy Changelog
+
+## Version 1.1.1 (April 13, 2026)
+
+### Added
+- Premium ATM GUI:
+  - `/re atm` command
+  - Deposit tray for supported physical currency items
+  - Withdraw flow with currency switching and amount controls
+  - Configurable ATM block interaction via `config.yml`
+- Expanded physical currency support:
+  - Custom model data support per currency
+  - Natural-source currency conversion for configured gameplay item sources
+  - Currency items rewritten from the configured physical item template
+
+### Changed
+- README updated to reflect the current premium feature set more accurately.
+- Premium markers in the README were normalized so premium-only sections and features are shown consistently from the start.
+- ATM GUI layout was aligned more closely with the shop purchase workflow and cleaned up to remove duplicate controls.
+
+### Fixed
+- ATM GUI config/layout issues in `gui.yml`.
+- ATM withdraw validation for integer currencies.
+- Physical currency conversion timing across:
+  - block drops
+  - item spawn
+  - item pickup
+  - direct-to-inventory normalization paths
+- Converted currency items now keep the configured display and metadata more reliably.
+- Inventory reinsertion for converted currency items was adjusted to follow normal Bukkit stacking behavior more closely.
+
+### Documentation
+- README updated with ATM image placeholders and ATM configuration examples.
+- README updated to include previously missing premium features and physical currency options.
+
+---
 
 ## Version 1.1.0-Beta (March 17, 2026)
 
@@ -13,6 +48,10 @@
 - PlaceholderAPI formatting:
   - `%relisheconomy_balance_<currency>_<type>_<style>%` now supports the same formatting options as `formatted`
     (example: `full_plain` -> `1,250.00`).
+- Baltop display name fallbacks for virtual/bank accounts:
+  - Uses the stored account name when Bukkit has no player name (reduces `Unknown` entries).
+  - Vault bank operations persist a friendly display name (Towny town/nation name when resolvable, otherwise bank name).
+
 ---
 
 ## Version 1.0.9-Beta (March 10, 2026)
@@ -242,7 +281,7 @@ prices:
   STONE: 0.5                    # Uses default currency (dollars) - shop shows $1.00
   DIAMOND: 
     price: 100
-    currency: "coins"           # Shop shows ◎200 (with 2.0x multiplier)
+    currency: "coins"           # Shop shows ?200 (with 2.0x multiplier)
   EMERALD:
     price: 150  
     currency: "gems"            # Shop shows with gems symbol
