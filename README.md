@@ -3,7 +3,7 @@
 ## 💰 Multi-Currency Economy • Shop • Sell GUI • Physical Currency
 
 ![Relish-Economy-Logo](https://cdn.modrinth.com/data/cached_images/9df4655d0afd67ba097405f931695951fcb513f2_0.webp)
-[![M5LB Store Banner](docs/assets/M5LBStore.png)](https://m5lb.run.place/)
+[![M5LB Store Banner](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/M5LBStore.png)](https://m5lb.run.place/)
 [![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
 [![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://im5lb.github.io/relisheconomy)
 [![Issues](https://img.shields.io/badge/🐛%20Issues-Report-orange?style=for-the-badge)](https://github.com/iM5LB/relisheconomy/issues)
@@ -206,11 +206,11 @@ database:
 
 ⭐ Physical currency notes and coins keep the owner name in their item metadata. `/withdraw` sets the owner to the player, crafted physical currency is rewritten to the crafting player, and custom model data can be applied per currency item.
 
-![Physical coin](docs/assets/PhysicalCoin.gif)
+![Physical coin](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/PhysicalCoin.gif)
 
 ⭐ Natural-source currency conversion can also turn configured gameplay item sources into the physical currency item itself. This is configured per currency.
 
-![Natural-currency](docs/assets/Natural-currency.gif)
+![Natural-currency](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/Natural-currency.gif)
 
 
 ⭐ ATM menu for physical currencies. Players can deposit supported currency items directly into the tray, switch between currencies, choose withdraw amounts, and confirm the action from a single GUI.
@@ -230,7 +230,7 @@ atm:
     require-sneak: true
 ```
 
-![ATM Overview](docs/assets/ATM-Overview.gif)
+![ATM Overview](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/ATM-Overview.gif)
 
 ### 🔄 **Currency Exchange**
 ```yaml
@@ -273,7 +273,7 @@ RelishEconomy can import data from other economy plugins:
 RelishEconomy's premium shop system provides a comprehensive item marketplace with intuitive GUI interfaces and flexible configuration options.
 <div align="center">
 
-![ShopGUI](docs/assets/ShopGUI.png)
+![ShopGUI](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/ShopGUI.png)
 
 </div>
 
@@ -345,7 +345,7 @@ categories:
 The sell system provides multiple ways for players to convert their items into currency, from quick command-based selling to an interactive GUI interface.
 <div align="center">
 
-![Relish-Economy-SellGUI.gif](https://cdn.modrinth.com/data/5RyYvL8C/images/a1244aaf472b1276888f99278b0e4da431bf892c.gif)
+![Relish-Economy-SellGUI.gif](https://camo.githubusercontent.com/8efd27377280eb89adba7bf94ea798fe5bc5f3cdf40569d2b679be650b299b5d/68747470733a2f2f63646e2e6d6f6472696e74682e636f6d2f646174612f35527959764c38432f696d616765732f613132343461616634373262313237363838386639393237386230653464613433316266383932632e676966)
 
 </div>
 
@@ -357,7 +357,7 @@ The sell system provides multiple ways for players to convert their items into c
 - **Confirmation system** - Prevent accidental sales with confirmation prompts
 - ⭐ **Logs view** - Open sell history from the sell GUI
 
-![SellGUI](docs/assets/SellGUI.png)
+![SellGUI](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/SellGUI.png)
 
 **Advanced Sell Features:**
 - **Multi-currency payouts** - Receive payment in configured target currency
@@ -370,7 +370,7 @@ The sell system provides multiple ways for players to convert their items into c
 
 <div align="center">
 
-![Sell Hover Preview](docs/assets/hover_items_prices.png)
+![Sell Hover Preview](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/hover_items_prices.png)
 
 </div>
 
@@ -469,7 +469,7 @@ Crafted physical currency also stores the crafting player as the owner, matching
 The premium shop GUI provides an elegant and user-friendly shopping experience with full customization options.
 <div align="center">
 
-![ShopGUI](docs/assets/ShopGUI.png)
+![ShopGUI](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/ShopGUI.png)
 
 </div>
 
@@ -555,7 +555,7 @@ Full economy provider implementation:
 %relisheconomy_stats_dbhealthy%     # Database health status
 ```
 
-![PlacholdersAPI](docs/assets/PlacholdersAPI.png)
+![PlacholdersAPI](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/PlacholdersAPI.png)
 
 ---
 
