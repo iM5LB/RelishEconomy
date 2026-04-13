@@ -13,25 +13,8 @@
   - Natural-source currency conversion for configured gameplay item sources
   - Currency items rewritten from the configured physical item template
 
-### Changed
-- README updated to reflect the current premium feature set more accurately.
-- Premium markers in the README were normalized so premium-only sections and features are shown consistently from the start.
-- ATM GUI layout was aligned more closely with the shop purchase workflow and cleaned up to remove duplicate controls.
-
-### Fixed
-- ATM GUI config/layout issues in `gui.yml`.
-- ATM withdraw validation for integer currencies.
-- Physical currency conversion timing across:
-  - block drops
-  - item spawn
-  - item pickup
-  - direct-to-inventory normalization paths
-- Converted currency items now keep the configured display and metadata more reliably.
-- Inventory reinsertion for converted currency items was adjusted to follow normal Bukkit stacking behavior more closely.
-
 ### Documentation
 - README updated with ATM image placeholders and ATM configuration examples.
-- README updated to include previously missing premium features and physical currency options.
 
 ---
 
