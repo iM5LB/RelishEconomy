@@ -1,5 +1,40 @@
 # RelishEconomy Changelog
 
+## Version 1.1.2-Beta (April 19, 2026)
+
+### Added
+- Physical currency deposit option:
+  - `currencies.<id>.physical-item.deposit-all-stacks: true`
+  - When enabled, sneaking + right-click deposits the full held stack instead of only one item.
+- Safer currency config identity handling:
+  - `currencies.<section>` no longer has to match the internal currency id.
+  - Added `aliases` support for safer currency renames and legacy id resolution.
+
+### Changed
+- ATM GUI layout reworked again for a cleaner no-mode flow:
+  - Removed the ATM mode switch.
+  - Current currency display now doubles as the currency switch control.
+  - Custom amount moved directly under the currency display.
+  - Bottom row simplified to `Deposit`, `Close`, `Withdraw`.
+- Physical currency owner metadata defaults are enabled again in bundled config.
+- Deposit-all-stacks config now means the full held stack only, not every matching stack in inventory.
+
+### Fixed
+- Premium/free gating:
+  - Blocked physical currency compact crafting and natural-source conversion in free mode.
+  - Restored normal vanilla crafting behavior for plain materials while keeping premium-only physical currency crafting restricted.
+- Physical currency compact crafting:
+  - Corrected stacked ingredient calculation so one craft only consumes one item per occupied slot.
+  - Added reverse compact crafting support for compact physical forms back into base physical forms.
+  - Removed stale deposit tray preview rendering from the final no-mode ATM layout.
+- Shift-deposit behavior:
+  - Fixed stacked held currency items only depositing one item when configured to deposit the full held stack.
+
+### Documentation
+- Updated bundled config comments for the new `deposit-all-stacks` behavior.
+
+---
+
 ## Version 1.1.1 (April 13, 2026)
 
 ### Added
