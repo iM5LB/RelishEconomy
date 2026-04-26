@@ -70,7 +70,7 @@ Sell price checking:
 |--------|-------------|------------|
 | `/withdraw <currency> <amount>` | Withdraw as a physical item | `relish.economy.withdraw` |
 
-Deposit is done by sneaking + right-clicking a physical currency item (if enabled per currency).
+Deposit interaction is configurable per currency via `currencies.<name>.physical-item.deposit-action` (default: sneak + right-click), if enabled per currency.
 
 Per-currency toggles:
 - `currencies.<name>.physical-item.deposit-enabled`

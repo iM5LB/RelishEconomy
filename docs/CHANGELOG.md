@@ -1,5 +1,51 @@
 # RelishEconomy Changelog
 
+## Version 1.1.4-Beta (April 26, 2026)
+
+### Added
+- Polish language file (`pl.yml`) with full key coverage.
+
+### Changed
+- Natural-source physical currency ownership:
+  - Removed cook/smelt-time rewrite (no more placeholder owners like `Cooked`).
+  - Conversion now happens when a player actually receives the item (pickup/extract/inventory), so the owner is always the receiving player when ownership is enabled.
+- Added support for Minecraft 26.1.
+
+### Fixed
+- Natural-source material preservation:
+  - Fixed an issue where `natural-source.materials` entries could be converted into the base physical currency material instead of keeping the original material (e.g., ingot/block) and only applying the correct currency value/metadata.
+- Physical currency items obtained via furnaces/smokers/blast furnaces no longer end up with a non-player owner label.
+
+## Version 1.1.3-Beta (April 22, 2026)
+
+### Added
+- Vanilla-style physical currency compacting/decompacting:
+  - 3x3 crafting (full grid) of physical currency items compresses into ingot/block variants when the vanilla recipe matches.
+  - 1 block/ingot decompacts back to 9 items when the vanilla recipe matches.
+- Smelting output rewrite for natural-source:
+  - Furnace / blast furnace / smoker results are rewritten into the configured physical currency item when `natural-source` matches.
+
+### Changed
+- Currency natural-source conversion:
+  - `physical-item.natural-source.materials` is now the primary way to configure per-material conversion rates (supports both map and list-of-maps YAML formats).
+  - Removed legacy `physical-item.natural-source.value-per-item` behavior; fallback now uses the base `physical-item.material` and `physical-item.value-per-item`.
+- Currency owner config:
+  - Replaced `physical-item.owner.enabled` with `physical-item.owner-enabled` (old formats are still accepted for compatibility).
+- Deposit behavior:
+  - Direct held-item deposit now always deposits the full held stack (removed the `deposit-all-stacks` config toggle).
+
+### Fixed
+- Language message:
+  - Added top-level `unknown` and `unknown-help` keys (keeps `/re` unknown-subcommand messages working across older/newer key namespaces).
+- Config cleanliness:
+  - Removed legacy/unused config keys and simplified currency example sections.
+
+### Configuration
+- `physical-item.deposit-all-stacks` removed (hardcoded full-stack deposit).
+- `physical-item.compact-materials` no longer required for vanilla compact/decompact crafting.
+- `physical-item.natural-source.value-per-item` removed (use `natural-source.materials` instead).
+- `physical-item.owner-enabled` replaces `physical-item.owner.enabled`.
+
 ## Version 1.1.2-Beta (April 19, 2026)
 
 ### Added

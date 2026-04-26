@@ -148,8 +148,15 @@ currencies:
   coins:
     physical-item:
       material: GOLD_NUGGET
+      value-per-item: 1.0
       withdraw-enabled: true
       deposit-enabled: true
+      atm-deposit: true
+      deposit-action:
+        enabled: true
+        require-sneak: true
+        click: RIGHT
+      owner-enabled: true
       custom-model-data: 2001   # set to -1 to disable, or change to match your resource pack model.
 ```
 

@@ -58,6 +58,14 @@ shop-gui-block: EMERALD_BLOCK
 composter-selling:
   enabled: true
   cooldown: 500
+
+atm:
+  enabled: true
+  block:
+    material: LOOM
+    require-sneak: true
+  deposit:
+    manual-confirm: true
 ```
 
 ### Exchange
@@ -79,6 +87,7 @@ Each currency supports per-currency formatting, permissions, exchange rates, and
 ```yaml
 currencies:
   dollars:
+    enabled: true
     name: "dollars"
     symbol: "$"
     display-name: "Dollars"
@@ -92,17 +101,26 @@ currencies:
       coins: 0.01
     physical-item:
       material: PAPER
+      value-per-item: 1.0
       deposit-enabled: true
+      atm-deposit: true
+      deposit-action:
+        enabled: true
+        require-sneak: true
+        click: RIGHT
       withdraw-enabled: true
+      owner-enabled: true
       name: "<green><bold>Dollar Bill"
       lore:
         - "<gray>Value: {formatted_amount}"
         - "<gray>Owner: <white>{owner}"
-        - ""
-        - "<yellow>Shift + Right-Click to deposit"
       custom-model-data: -1
       glow: false
       unbreakable: false
+      natural-source:
+        enabled: false
+        match-any-meta: false
+        materials: {}
     crafting:
       enabled: false
       value: 100.0
@@ -119,6 +137,7 @@ currencies:
 Notes:
 - Physical currency (`/withdraw`, deposit) is a Premium feature, but its per-currency templates and crafting recipes are configured here.
 - `custom-model-data` is applied to the physical currency item meta when `>= 0`.
+- Deposit instructions are added automatically (from `lang/*.yml`) based on `physical-item.deposit-action`; you do not need to hardcode them in the currency item lore.
 
 ### Custom Model Data (Resource Pack Example)
 

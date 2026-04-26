@@ -1,34 +1,34 @@
-<div align="center">
+﻿<div align="center">
 
-## 💰 Multi-Currency Economy • Shop • Sell GUI • Physical Currency
+## ðŸ’° Multi-Currency Economy â€¢ Shop â€¢ Sell GUI â€¢ Physical Currency
 
 ![Relish-Economy-Logo](https://cdn.modrinth.com/data/cached_images/9df4655d0afd67ba097405f931695951fcb513f2_0.webp)
 [![M5LB Store Banner](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/M5LBStore.png)](https://m5lb.run.place/)
 [![Discord](https://img.shields.io/badge/Discord-Support-7289da?style=for-the-badge&logo=discord)](https://discord.gg/hjKcHavRjT)
 [![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge&logo=gitbook)](https://im5lb.github.io/relisheconomy)
-[![Issues](https://img.shields.io/badge/🐛%20Issues-Report-orange?style=for-the-badge)](https://github.com/iM5LB/relisheconomy/issues)
+[![Issues](https://img.shields.io/badge/ðŸ›%20Issues-Report-orange?style=for-the-badge)](https://github.com/iM5LB/relisheconomy/issues)
 [![Store](https://img.shields.io/badge/Store-License%20Keys-gold?style=for-the-badge)](https://m5lb.run.place/)
-[![Donate](https://img.shields.io/badge/💖%20Donate-Love-ff69b4?style=for-the-badge)](https://creators.sa/m5lb)
+[![Donate](https://img.shields.io/badge/ðŸ’–%20Donate-Love-ff69b4?style=for-the-badge)](https://creators.sa/m5lb)
 
 </div>
 
 ---
 
-## 🌟 **Why Choose RelishEconomy?**
+## ðŸŒŸ **Why Choose RelishEconomy?**
 
 RelishEconomy provides a solid economy foundation with multi-currency support, database flexibility, and seamless plugin integrations. Built for modern Minecraft servers with performance and reliability in mind.
 
-### ✨ **Key Highlights**
+### âœ¨ **Key Highlights**
 
-🏦 **Multi-Currency System** - Support for multiple custom currencies  
-🚀 **High Performance** - Advanced caching with Caffeine for fast operations  
-🔧 **Full Integration** - Vault and PlaceholderAPI support  
-🗄️ **Database Flexibility** - SQLite and MySQL support  
-🌍 **Multi-Language** - Built-in English, Arabic, and Portuguese translations  
+ðŸ¦ **Multi-Currency System** - Support for multiple custom currencies  
+ðŸš€ **High Performance** - Advanced caching with Caffeine for fast operations  
+ðŸ”§ **Full Integration** - Vault and PlaceholderAPI support  
+ðŸ—„ï¸ **Database Flexibility** - SQLite and MySQL support  
+ðŸŒ **Multi-Language** - Built-in English, Arabic, Portuguese, and Polish translations  
 
 ---
 
-## 📋 **Requirements**
+## ðŸ“‹ **Requirements**
 
 | Component | Requirement |
 |-----------|-------------|
@@ -39,41 +39,41 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 
 ---
 
-## 🚀 **Features Overview**
+## ðŸš€ **Features Overview**
 
-### 🆓 **Free Version**
-- ✅ Basic economy commands (`/balance`, `/pay`, `/baltop`, `/eco`)
-- ✅ **Multi-currency system** with custom properties
-- ✅ Per-currency formatting, permissions, and decimal control
-- ✅ **Currency exchange** with per-currency exchange rates
-- ✅ Command-based selling (`/sellhand`, `/sellhotbar`, `/sellall`)
-- ✅ Sold-item hover breakdowns for sell commands
-- ✅ Baltop leaderboard placeholders and balance placeholders
-- ✅ Data migration from other plugins
-- ✅ Player username storage alongside UUID balances
-- ✅ Towny and Vault economy compatibility
-- ✅ Vault and PlaceholderAPI support
-- ✅ SQLite and MySQL support
-- ✅ Config validation, backup, and auto-recovery for bundled files
+### ðŸ†“ **Free Version**
+- âœ… Basic economy commands (`/balance`, `/pay`, `/baltop`, `/eco`)
+- âœ… **Multi-currency system** with custom properties
+- âœ… Per-currency formatting, permissions, and decimal control
+- âœ… **Currency exchange** with per-currency exchange rates
+- âœ… Command-based selling (`/sellhand`, `/sellhotbar`, `/sellall`)
+- âœ… Sold-item hover breakdowns for sell commands
+- âœ… Baltop leaderboard placeholders and balance placeholders
+- âœ… Data migration from other plugins
+- âœ… Player username storage alongside UUID balances
+- âœ… Towny and Vault economy compatibility
+- âœ… Vault and PlaceholderAPI support
+- âœ… SQLite and MySQL support
+- âœ… Config validation, backup, and auto-recovery for bundled files
 
-### ⭐ **Premium Version**
-- ⭐ **Shop GUI** with category browsing
-- ⭐ **Sell GUI** for item selling
-- ⭐ **Transaction Logs GUI** for sell history navigation
-- ⭐ **Block interactions** (shop/sell blocks)
-- ⭐ **GUI customization** and interactions
-- ⭐ **Physical currency withdraw and shift-deposit**
-- ⭐ **ATM GUI** for physical currency deposit and withdraw
-- ⭐ **Craftable physical currency with owner metadata**
-- ⭐ **Custom model data** support for physical currencies
-- ⭐ **Natural-source currency conversion** for configured item sources
-- ⭐ **Composter selling** - throw items on composter to sell them
+### â­ **Premium Version**
+- â­ **Shop GUI** with category browsing
+- â­ **Sell GUI** for item selling
+- â­ **Transaction Logs GUI** for sell history navigation
+- â­ **Block interactions** (shop/sell blocks)
+- â­ **GUI customization** and interactions
+- â­ **Physical currency withdraw and shift-deposit**
+- â­ **ATM GUI** for physical currency deposit and withdraw
+- â­ **Craftable physical currency with owner metadata**
+- â­ **Custom model data** support for physical currencies
+- â­ **Natural-source currency conversion** for configured item sources
+- â­ **Composter selling** - throw items on composter to sell them
 
 
 
 ---
 
-## 📦 **Installation**
+## ðŸ“¦ **Installation**
 
 1. **Download** the plugin JAR file
 2. **Place** it in your server's `plugins` folder
@@ -91,9 +91,9 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 
 ---
 
-## 🎮 **Commands & Usage**
+## ðŸŽ® **Commands & Usage**
 
-### 👤 **Player Commands**
+### ðŸ‘¤ **Player Commands**
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -102,16 +102,16 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 | `/baltop [currency] [page]` | View leaderboard | `/baltop dollars 2` |
 | `/currency <list\|info>` | View currencies | `/currency list` |
 | `/exchange <from> <to> <amount>` | Convert currencies | `/exchange dollars coins 500` |
-| `/shop` ⭐ | Open shop GUI | `/shop` |
-| `/shop help` ⭐ | Show shop help | `/shop help` |
-| `/sell [subcommands]` ⭐ | Open sell GUI | `/sell price` |
-| `/re atm` ⭐ | Open ATM GUI | `/re atm` |
+| `/shop` â­ | Open shop GUI | `/shop` |
+| `/shop help` â­ | Show shop help | `/shop help` |
+| `/sell [subcommands]` â­ | Open sell GUI | `/sell price` |
+| `/re atm` â­ | Open ATM GUI | `/re atm` |
 | `/sellhand` | Sell item in hand | `/sellhand` |
 | `/sellhotbar` | Sell hotbar items | `/sellhotbar` |
 | `/sellall` | Sell all items | `/sellall confirm` |
-| `/withdraw <currency> <amount>` ⭐ | Get physical currency | `/withdraw coins 10` |
+| `/withdraw <currency> <amount>` â­ | Get physical currency | `/withdraw coins 10` |
 
-### 👑 **Admin Commands**
+### ðŸ‘‘ **Admin Commands**
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -119,19 +119,20 @@ RelishEconomy provides a solid economy foundation with multi-currency support, d
 | `/re reload` | Reload configuration | `/re reload` |
 | `/re migrate <plugin> <currency>` | Import from other plugins | `/re migrate essentials dollars` |
 
-### 💡 **Amount Shortcuts**
+### ðŸ’¡ **Amount Shortcuts**
 - `k` = thousand (e.g., `5k` = 5,000)
 - `m` = million (e.g., `2m` = 2,000,000)  
 - `b` = billion (e.g., `1b` = 1,000,000,000)
 
 ---
 
-## 🔧 **Configuration**
+## ðŸ”§ **Configuration**
 
 ### **Currency Setup**
 ```yaml
 currencies:
   dollars:
+    enabled: true
     name: "dollars"
     symbol: "$"
     display-name: "Dollars"
@@ -145,20 +146,23 @@ currencies:
       coins: 0.01
     physical-item:
       material: PAPER
+      value-per-item: 1.0
       deposit-enabled: true
+      atm-deposit: true
+      deposit-action:
+        enabled: true
+        require-sneak: true
+        click: RIGHT
       withdraw-enabled: true
+      owner-enabled: true
       name: "<green><bold>Dollar Bill"
       lore:
         - "<gray>Value: {formatted_amount}"
         - "<gray>Owner: <white>{owner}"
-        - ""
-        - "<yellow>Shift + Right-Click to deposit"
-    crafting:
-      enabled: false
-      value: 100.0
-      amount: 1
+      custom-model-data: -1
 
   coins:
+    enabled: true
     name: "coins"
     symbol: "◎"
     display-name: "Coins"
@@ -172,26 +176,30 @@ currencies:
       dollars: 100.0
     physical-item:
       material: GOLD_NUGGET
+      value-per-item: 1.0
       deposit-enabled: true
+      atm-deposit: true
+      deposit-action:
+        enabled: true
+        require-sneak: true
+        click: RIGHT
       withdraw-enabled: true
+      owner-enabled: true
       name: "<gold><bold>Gold Coin"
       lore:
         - "<gray>Value: {formatted_amount}"
         - "<gray>Owner: <white>{owner}"
-        - ""
-        - "<yellow>Shift + Right-Click to deposit"
-      custom-model-data: 2001
+      custom-model-data: -1
       natural-source:
         enabled: true
-        value-per-item: 1.0
         match-any-meta: false
-    crafting:
-      enabled: false
-      value: 1.0
-      amount: 1
+        materials:
+          - GOLD_NUGGET: 1
+          - GOLD_INGOT: 9
+          - GOLD_BLOCK: 81
 ```
 
-### 🗄️ **Database Options**
+### ðŸ—„ï¸ **Database Options**
 ```yaml
 database:
   type: sqlite  # or mysql for networks
@@ -204,16 +212,16 @@ database:
     password: password
 ```
 
-⭐ Physical currency notes and coins keep the owner name in their item metadata. `/withdraw` sets the owner to the player, crafted physical currency is rewritten to the crafting player, and custom model data can be applied per currency item.
+â­ Physical currency notes and coins keep the owner name in their item metadata. `/withdraw` sets the owner to the player, crafted physical currency is rewritten to the crafting player, and custom model data can be applied per currency item.
 
 ![Physical coin](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/PhysicalCoin.gif)
 
-⭐ Natural-source currency conversion can also turn configured gameplay item sources into the physical currency item itself. This is configured per currency.
+â­ Natural-source currency conversion can also turn configured gameplay item sources into the physical currency item itself. This is configured per currency.
 
 ![Natural-currency](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/Natural-currency.gif)
 
 
-⭐ ATM menu for physical currencies. Players can deposit supported currency items directly into the tray, switch between currencies, choose withdraw amounts, and confirm the action from a single GUI.
+â­ ATM menu for physical currencies. Players can deposit supported currency items into the ATM deposit slots, switch between currencies, choose withdraw amounts, and confirm the action from a single GUI.
 
 **ATM Highlights:**
 - **Deposit tray** - Queue supported physical currency items for deposit
@@ -232,7 +240,7 @@ atm:
 
 ![ATM Overview](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/ATM-Overview.gif)
 
-### 🔄 **Currency Exchange**
+### ðŸ”„ **Currency Exchange**
 ```yaml
 exchange-fee-percentage: 2.5
 
@@ -245,7 +253,7 @@ currencies:
       dollars: 100.0  # 1 coin = 100 dollars
 ```
 
-### 🔄 **Data Migration**
+### ðŸ”„ **Data Migration**
 
 RelishEconomy can import data from other economy plugins:
 
@@ -259,17 +267,17 @@ RelishEconomy can import data from other economy plugins:
 
 
 **Migration Features:**
-- ✅ **Automatic detection** of source plugin data
-- ✅ **UUID conversion** for modern Minecraft
-- ✅ **Offline player support** - migrates all accounts
-- ✅ **Progress tracking** with detailed reports
-- ✅ **Async processing** - no server lag
+- âœ… **Automatic detection** of source plugin data
+- âœ… **UUID conversion** for modern Minecraft
+- âœ… **Offline player support** - migrates all accounts
+- âœ… **Progress tracking** with detailed reports
+- âœ… **Async processing** - no server lag
 
 ---
 
-## ⭐ **Shop System**
+## â­ **Shop System**
 
-### 📦 **Shop Features**
+### ðŸ“¦ **Shop Features**
 RelishEconomy's premium shop system provides a comprehensive item marketplace with intuitive GUI interfaces and flexible configuration options.
 <div align="center">
 
@@ -295,7 +303,7 @@ RelishEconomy's premium shop system provides a comprehensive item marketplace wi
 - **Search functionality** - Find items across all categories
 
 
-### 🏪 **Shop Configuration**
+### ðŸª **Shop Configuration**
 ```yaml
 # shop.yml
 shop:
@@ -331,7 +339,7 @@ categories:
 - **Spawn Eggs**
 - **Operator Utilities** (disabled by default)
 
-### 🎯 **Shop Commands**
+### ðŸŽ¯ **Shop Commands**
 ```bash
 /shop                    # Open main shop interface
 /shop help               # Show shop help
@@ -339,9 +347,9 @@ categories:
 
 ---
 
-## 💰 **Sell System**
+## ðŸ’° **Sell System**
 
-### 📤 **Sell Features**
+### ðŸ“¤ **Sell Features**
 The sell system provides multiple ways for players to convert their items into currency, from quick command-based selling to an interactive GUI interface.
 <div align="center">
 
@@ -351,11 +359,11 @@ The sell system provides multiple ways for players to convert their items into c
 
 **Sell Methods:**
 - **Command-based selling** - Quick `/sellhand`, `/sellhotbar`, and `/sellall` commands (Free)
-- ⭐ **Interactive Sell GUI** - Drag-and-drop interface for selective selling
+- â­ **Interactive Sell GUI** - Drag-and-drop interface for selective selling
 - **Auto-grab functionality** - Automatically collect sellable items from inventory
 - **Price calculation** - Real-time value calculation with currency conversion
 - **Confirmation system** - Prevent accidental sales with confirmation prompts
-- ⭐ **Logs view** - Open sell history from the sell GUI
+- â­ **Logs view** - Open sell history from the sell GUI
 
 ![SellGUI](https://github.com/iM5LB/RelishEconomy/raw/main/docs/assets/SellGUI.png)
 
@@ -363,7 +371,7 @@ The sell system provides multiple ways for players to convert their items into c
 - **Multi-currency payouts** - Receive payment in configured target currency
 - **Bulk selling** - Sell entire stacks or inventory contents at once
 - **500+ sellable items** - Comprehensive item price database
-- ⭐ **Composter selling** - Throw items on composter for instant selling
+- â­ **Composter selling** - Throw items on composter for instant selling
 - **Transaction logging** - Track all sell transactions for auditing
 - **Sold-items hover summary** - Hover chat output to view sold item breakdown
 
@@ -374,7 +382,7 @@ The sell system provides multiple ways for players to convert their items into c
 
 </div>
 
-### 🎮 **Sell Commands (Free)**
+### ðŸŽ® **Sell Commands (Free)**
 ```bash
 /sellhand               # Sell the item in your hand
 /sellhotbar             # Sell all sellable items in your hotbar
@@ -384,7 +392,7 @@ The sell system provides multiple ways for players to convert their items into c
 
 These commands work without a premium license. Only the sell GUI, composter selling, and sell block interactions are premium.
 
-### ⭐ **Sell GUI Interface**
+### â­ **Sell GUI Interface**
 The premium Sell GUI provides an intuitive drag-and-drop interface for item selling:
 
 
@@ -397,7 +405,7 @@ The premium Sell GUI provides an intuitive drag-and-drop interface for item sell
 - **Sound effects** - Audio feedback for all interactions
 
 
-### ⚙️ **Sell Configuration**
+### âš™ï¸ **Sell Configuration**
 ```yaml
 # prices.yml
 sell:
@@ -426,7 +434,7 @@ prices:
 - **Mob drops** - Bones, string, gunpowder, leather
 - **Food items** - Wheat, carrots, potatoes, meat
 
-### ⭐ **Sell Block Interactions**
+### â­ **Sell Block Interactions**
 Premium users can use physical blocks for convenient item selling:
 
 **Sell Block Features:**
@@ -445,7 +453,7 @@ sell-gui-block: COMPOSTER
 shop-gui-block: EMERALD_BLOCK
 ```
 
-### ⭐ **Physical Currency**
+### â­ **Physical Currency**
 
 Players can withdraw supported currencies into physical items, trade them, then deposit them back with `Shift + Right-Click`.
 
@@ -463,9 +471,9 @@ Crafted physical currency also stores the crafting player as the owner, matching
 
 ---
 
-## ⭐ **GUI Features**
+## â­ **GUI Features**
 
-### ⭐ **Shop Interface**
+### â­ **Shop Interface**
 The premium shop GUI provides an elegant and user-friendly shopping experience with full customization options.
 <div align="center">
 
@@ -482,7 +490,7 @@ The premium shop GUI provides an elegant and user-friendly shopping experience w
 - **Permission-based category access**
   
 
-### ⭐ **Sell Interface**
+### â­ **Sell Interface**
 The premium sell GUI offers an intuitive drag-and-drop experience for item selling.
 
 
@@ -496,7 +504,7 @@ The premium sell GUI offers an intuitive drag-and-drop experience for item selli
 - **Multi-currency** payout options
 
 
-### ⭐ **GUI Customization**
+### â­ **GUI Customization**
 Premium users have full control over GUI appearance and behavior:
 
 **Customization Options:**
@@ -507,16 +515,16 @@ Premium users have full control over GUI appearance and behavior:
 - **Layout templates** - Pre-designed layouts or create your own
 ---
 
-## 🔌 **Integrations**
+## ðŸ”Œ **Integrations**
 
-### 🏛️ **Vault API**
+### ðŸ›ï¸ **Vault API**
 Full economy provider implementation:
 - `getBalance()`, `depositPlayer()`, `withdrawPlayer()`
 - Compatible with **any plugin** using Vault
 - Multi-currency support through Vault
 - Towny bank deposits are supported (including `/t deposit <amount>` flow)
 
-### 📊 **PlaceholderAPI Integration**
+### ðŸ“Š **PlaceholderAPI Integration**
 
 **Balance Placeholders:**
 ```
@@ -559,14 +567,15 @@ Full economy provider implementation:
 
 ---
 
-## 🌍 **Multi-Language Support**
+## ðŸŒ **Multi-Language Support**
 
-### 🗣️ **Built-in Languages**
-- 🇺🇸 **English** (en) - Complete
-- 🇸🇦 **Arabic** (ar) - Complete
-- 🇵🇹 **Portuguese** (pt) - Complete
+### ðŸ—£ï¸ **Built-in Languages**
+- ðŸ‡ºðŸ‡¸ **English** (en) - Complete
+- ðŸ‡¸ðŸ‡¦ **Arabic** (ar) - Complete
+- ðŸ‡µðŸ‡¹ **Portuguese** (pt) - Complete
+- 🇵🇱 **Polish** (pl) - Complete
 
-### 🌐 **Custom Languages**
+### ðŸŒ **Custom Languages**
 Create `lang/[code].yml` files for any language:
 ```yaml
 # Example: lang/es.yml for Spanish
@@ -577,16 +586,16 @@ balance:
 
 ---
 
-## 📈 **Performance & Scalability**
+## ðŸ“ˆ **Performance & Scalability**
 
-### ⚡ **Optimization Features**
+### âš¡ **Optimization Features**
 - **Caffeine caching** for instant data access
 - **Connection pooling** with HikariCP (MySQL)
 - **Async operations** for database queries
 - **Baltop caching** with configurable duration
 - **Auto-cleanup** of stale cache data
 
-### 📊 **Scalability Options**
+### ðŸ“Š **Scalability Options**
 - **SQLite** for small-medium servers (0-500 players)
 - **MySQL** for large networks (500+ players)
 - **Real-time read mode** for external integrations
@@ -594,19 +603,19 @@ balance:
 
 ---
 
-## 📄 **License**
+## ðŸ“„ **License**
 
 **RelishEconomy is proprietary software. All rights reserved.**
 
 ### License Types
 
-#### 🆓 Free Version
+#### ðŸ†“ Free Version
 - Available without license key
 - Includes multi-currency, exchange, baltop, migration, and command-based selling
 - May be used on unlimited servers
 - **NOT open source** - modification and redistribution prohibited
 
-#### ⭐ Premium Version
+#### â­ Premium Version
 - Requires valid license key from M5LB
 - Includes premium-only features such as Shop GUI, Sell GUI, ATM GUI, transaction logs GUI, physical currency, and premium block interactions
 - License key tied to purchaser and server count
@@ -617,11 +626,11 @@ For full license terms, see [LICENSE](https://github.com/iM5LB/relisheconomy?tab
 ### Obtain Premium License
 
 To get a premium license key:
-- 🛒 **Buy a key from [M5LB Store](https://m5lb.run.place/)**
+- ðŸ›’ **Buy a key from [M5LB Store](https://m5lb.run.place/)**
 
 ---
 <div align="center">
 
-**Made with ❤️ by M5LB**
+**Made with â¤ï¸ by M5LB**
 
 </div>
