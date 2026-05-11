@@ -1,5 +1,16 @@
 # RelishEconomy Changelog
 
+## Version 1.1.5-Beta (May 11, 2026)
+
+### Added
+- MySQL SSL toggle compatible with RelishAuth config style:
+  - `database.mysql.use-ssl: true|false`
+
+### Changed
+- Simplified MySQL SSL configuration:
+  - Default/bundled config now uses `database.mysql.use-ssl` only.
+  - Legacy `database.mysql.ssl.*` section is still accepted for compatibility (advanced SSL options).
+
 ## Version 1.1.4-Beta (April 26, 2026)
 
 ### Added
