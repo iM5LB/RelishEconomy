@@ -1,0 +1,19 @@
+docs/CHANGELOG.md
+  s_ce9f3f5fad3c75::t_5ef35f61cd8dbf 3-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "569a7b97ee37e1c0d3838de5ec50bac5f87d5be7",
+  "prompts": {},
+  "sessions": {
+    "s_ce9f3f5fad3c75": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c605e-6274-7231-a2f9-e00d1b429652",
+        "model": "gpt-5.2"
+      },
+      "human_author": "iM5LB <14554378@uofn.edu.om>"
+    }
+  }
+}
