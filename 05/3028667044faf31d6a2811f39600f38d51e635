@@ -1,0 +1,28 @@
+docs/CHANGELOG.md
+  s_a29c7fbf562f2d::t_ff4b3cab9969ce 10-13
+  s_0973b3612ff6e4::t_eaec5da2896f03 3,6-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "053028667044faf31d6a2811f39600f38d51e635",
+  "prompts": {},
+  "sessions": {
+    "s_0973b3612ff6e4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e8bb5-b69d-73e2-8df4-52bfe3a55faa",
+        "model": "gpt-5.5"
+      },
+      "human_author": "iM5LB <14554378@uofn.edu.om>"
+    },
+    "s_a29c7fbf562f2d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e920f-30ae-7070-ae0c-1309e46b94f7",
+        "model": "gpt-5.5"
+      },
+      "human_author": "iM5LB <14554378@uofn.edu.om>"
+    }
+  }
+}
