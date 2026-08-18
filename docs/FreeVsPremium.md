@@ -12,7 +12,7 @@ license-key: "YOUR-KEY-HERE"
 
 Then restart or run `/re reload` (admin).
 
-Buy keys from the [M5LB Store](https://m5lb.run.place/?buy=relish-economy). Support: [Discord](https://discord.gg/jDr2KZcGXk).
+Buy keys from the [Relish Store](https://relishes.studio/product/relisheconomy). Support: [Discord](https://discord.gg/AdUjAtCsy6).
 
 If verification fails or the key is empty, **free features keep working**. Premium actions show an upgrade message instead of breaking the plugin.
 

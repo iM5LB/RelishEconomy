@@ -1,4 +1,4 @@
-﻿# Permissions
+# Permissions
 
 Complete reference for all RelishEconomy permissions.
 

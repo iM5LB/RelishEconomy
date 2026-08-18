@@ -15,9 +15,9 @@ Get RelishEconomy up and running on your Minecraft server in just a few minutes.
 
 ### 1. Download the Plugin
 - **Free Version**: Download from [Modrinth](https://modrinth.com/plugin/relish-economy)
-- **Premium License**: [M5LB Store](https://m5lb.run.place/?buy=relish-economy) to purchase premium access
+- **Premium License**: [Relish Store](https://relishes.studio/product/relisheconomy) to purchase premium access
 
-> **Note**: Premium licenses are sold through the M5LB Store. Premium source code is not shared - you receive a license key that activates premium features.
+> **Note**: Premium licenses are sold through the Relish Store. Premium source code is not shared - you receive a license key that activates premium features.
 
 ### 2. Install Dependencies
 Download and install these plugins (optional but recommended):
@@ -60,7 +60,7 @@ currencies:
 ## Premium Activation
 
 If you purchased the premium version:
-1. Get your license key from the M5LB Store
+1. Get your license key from the Relish Store
 2. Add it to `config.yml`:
 ```yaml
 license-key: "your-license-key-here"
@@ -76,6 +76,6 @@ license-key: "your-license-key-here"
 - **Database errors**: Check file permissions
 
 ### Getting Help
-- Visit the [M5LB Store](https://m5lb.run.place/?buy=relish-economy) for premium keys
-- Join our [Discord](https://discord.gg/jDr2KZcGXk)
+- Visit the [Relish Store](https://relishes.studio/product/relisheconomy) for premium keys
+- Join our [Discord](https://discord.gg/AdUjAtCsy6)
 - Report bugs on [GitHub](https://github.com/iM5LB/relisheconomy/issues)

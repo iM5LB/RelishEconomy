@@ -1,5 +1,29 @@
 # RelishEconomy Changelog
 
+## Version 1.1.8-Beta (August 4, 2026)
+
+### Added
+- **Item price lore** — configurable sell/buy prices shown on item lore (`item-price-lore` in `config.yml`).
+  - Updates on pickup/craft by default; optional join and inventory-open refresh.
+  - PDC version markers avoid re-processing items that already have current lore.
+  - Skips physical currency items and optionally skips custom-meta items.
+- **Anti-arbitrage pricing** — recipe-aware sell price caps so craft/smelt outputs cannot sell above ingredient value (`anti-arbitrage` in `prices.yml`).
+  - Default `max-craft-sell-ratio: 0.95` keeps craft-and-sell at a small loss.
+  - Blocks buy → craft → sell profit loops when buy uses the shop multiplier.
+- **Auto-fill missing sell prices** — any Minecraft item missing from `prices.yml` gets a default sell price (`auto-fill-missing` in `prices.yml`), with bedrock/command blocks/spawn eggs excluded by default.
+
+### Improved
+- Sell price lookup uses `EnumMap` and a cached blocked-item set for faster `isSellable()` checks.
+- Item price lore settings are cached and refreshed on `/re reload` (no per-pickup config reads).
+- Shop/Sell GUI player sessions are cleared on disconnect to prevent session map leaks.
+- Removed duplicate stripped wood price entries from bundled `prices.yml`.
+
+### Configuration
+- New `config.yml` section: `item-price-lore.*` (config version `4`)
+- New `prices.yml` sections: `auto-fill-missing.*`, `anti-arbitrage.*`
+
+---
+
 ## Version 1.1.7-Beta (July 21, 2026)
 
 ### Added (Premium)
@@ -516,9 +540,9 @@ If you're integrating with RelishEconomy:
 ## Support
 
 For questions about this update or issues with migration:
-- Join our [Discord](https://discord.gg/hjKcHavRjT) for support
+- Join our [Discord](https://discord.gg/AdUjAtCsy6) for support
 - Report bugs on [GitHub Issues](https://github.com/iM5LB/relisheconomy/issues)
-- Check the [Documentation](https://im5lb.github.io/relisheconomy) for detailed guides
+- Check the [Documentation](https://relishes.studio/docs/relisheconomy) for detailed guides
 
 ---
 

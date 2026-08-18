@@ -20,9 +20,9 @@ RelishEconomy is a modern economy plugin for Paper servers:
 
 RelishEconomy ships as a **free** jar with core economy commands. A **license key** unlocks premium features (shop, sell GUI, ATM, physical currency, personal vault, and more).
 
-See [Free vs Premium](FreeVsPremium.md) and set `license-key` in `config.yml`. Purchase keys at the [M5LB Store](https://m5lb.run.place/?buy=relish-economy).
+See [Free vs Premium](FreeVsPremium.md) and set `license-key` in `config.yml`. Purchase keys at the [Relish Store](https://relishes.studio/product/relisheconomy).
 
-[![M5LB Store](assets/M5LBStore.png)](https://m5lb.run.place/?buy=relish-economy)
+[![Relish Store](assets/M5LBStore.png)](https://relishes.studio/product/relisheconomy)
 
 ## Quick Links
 
@@ -65,9 +65,9 @@ See [Free vs Premium](FreeVsPremium.md) and set `license-key` in `config.yml`. P
 
 ## Getting Help
 
-- Store: [m5lb.run.place](https://m5lb.run.place/?buy=relish-economy)
+- Store: [m5lb.run.place](https://relishes.studio/product/relisheconomy)
 - Modrinth: [modrinth.com/plugin/relisheconomy](https://modrinth.com/plugin/relisheconomy)
-- Discord: [Support server](https://discord.gg/jDr2KZcGXk)
+- Discord: [Support server](https://discord.gg/AdUjAtCsy6)
 - Donate: [creators.sa/m5lb](https://creators.sa/m5lb)
 
 ## Next Steps
