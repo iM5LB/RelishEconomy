@@ -1023,17 +1023,3 @@ body {
 .sidebar-overlay.active {
   display: block;
 }
-
-/* Embedded in relishes.studio — hide duplicate top bar */
-html.embedded .navbar {
-  display: none;
-}
-
-html.embedded #app {
-  grid-template-rows: 1fr;
-  min-height: 100%;
-}
-
-html.embedded .sidebar-overlay {
-  top: 0;
-}
